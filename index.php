@@ -127,12 +127,14 @@
 				</div>
 			</div>
  			<!--     *********     FEATURES 1      *********      -->
-        <div class="features-1">
+        <div class="">
                 <div class="row" style="color:white";>
                     <div class="col-md-4">
                         <div class="info">
                             <div class="icon icon-danger">
-                                <i class="nc-icon nc-palette"></i>
+                                <i class="nc-icon nc-palette">
+                                    <img src="<?php echo get_template_directory_uri() . '/images/icn_1.png'?>" alt="">
+                                </i>
                             </div>
                             <div class="description">
                                 <h4 class="info-title" style="color:white";>Measure</h4>
@@ -143,7 +145,9 @@
                     <div class="col-md-4">
                         <div class="info">
                             <div class="icon icon-danger">
-                                <i class="nc-icon nc-bulb-63"></i>
+                                <i class="nc-icon nc-bulb-63">
+                                    <img src="<?php echo get_template_directory_uri() . '/images/icn_2.png'?>" alt="">
+                                </i>
                             </div>
                             <div class="description" style="color:white";>
                                 <h4 class="info-title" style="color:white";>Analyse</h4>
@@ -154,7 +158,9 @@
                     <div class="col-md-4">
                         <div class="info">
                             <div class="icon icon-danger">
-                                <i class="nc-icon nc-chart-bar-32"></i>
+                                <i class="nc-icon nc-chart-bar-32">
+                                    <img src="<?php echo get_template_directory_uri() . '/images/icn_3.png'?>" alt="">
+                                </i>
                             </div>
                             <div class="description" style="color:white";>
                                 <h4 class="info-title" style="color:white";>Take action</h4>
@@ -170,12 +176,14 @@
 
 
 
-<div class="features-1">
+<div class="">
 			<div class="container">
 					<div class="row" style="text-align:center;">
 			<div class="text-center" style="text-align:center;">
+            <br>
+            <br>
 				<h2 class="title">Trusted by</h2>
-			</div>
+            </div>
         </div>
         
       
@@ -233,7 +241,8 @@
 					</div>							
 				</div>
 			</div>
-				
+            <br>
+            <br>
 <!--     *********     BLOGS 2      *********      -->
 
 <div class="blog-2 section section-gray" style="background-color:#f1f5ff">
