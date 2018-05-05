@@ -11,7 +11,6 @@
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/Normalize/normalize.css' ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/Bootstrap/css/bootstrap.min.css' ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/Bootstrap/css/bootstrap-theme.min.css' ?>">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/Pop-Up/magnific-popup.css' ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/style.css' ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/mobile.css' ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/font-verse.css' ?>">
@@ -584,7 +583,7 @@
 	  </div>
 	</div>
 
-	<script src="js/Jquery/jquery.min.js" type="text/javascript">
+	<script src="js/jquery/jquery.min.js" type="text/javascript">
 	</script>
 	<script src="js/Bootstrap/bootstrap.min.js" type="text/javascript">
 	</script>
@@ -592,10 +591,6 @@
 	<script src="js/wow.js" type="text/javascript">
 	</script>
 	<script src="js/wow-custom.js" type="text/javascript">
-	</script>
-	<script src="js/Pop-Up/jquery.magnific-popup.js" type="text/javascript">
-	</script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.js" type="text/javascript">
 	</script>
 	<script src="https://use.fontawesome.com/06f1165186.js">
 	</script>
