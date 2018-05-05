@@ -7,53 +7,15 @@
 	<meta name="google-site-verification" content="eMm5vhErJw5nDnJ0pS3ujhbnRtO_USo7gVHAIw5j4No" />
 	<title>VERSE Technology</title>
     <meta name="description" content="VERSE Technology. Research, development, implementation and support for the Internet of Things."/>
-    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/style.css' ?>">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/Normalize/normalize.css' ?>">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/Bootstrap/css/bootstrap.min.css' ?>">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/Bootstrap/css/bootstrap-theme.min.css' ?>">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/style.css' ?>">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/mobile.css' ?>">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/font-verse.css' ?>">
-	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/build.css' ?>">
-	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/paperkit.css' ?>">
+
+    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/normalize.css' ?>">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	
+    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/paperkit.css' ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/style.css' ?>">
 
 	<link href="<?php echo get_template_directory_uri() . '/favicon.ico';?>" rel="shortcut icon" type="image/png">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet" type="text/css">
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
-	<script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-90893061-1', 'auto');
-      ga('send', 'pageview');
-  </script>
-
-  <!-- Facebook Pixel Code -->
-  <script>
-  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-  document,'script','https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '554650828259573'); // Insert your pixel ID here.
-  fbq('track', 'PageView');
-  </script>
-  <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=554650828259573&ev=PageView&noscript=1"
-  /></noscript>
-  <!-- DO NOT MODIFY -->
-  <!-- End Facebook Pixel Code -->
-
-  <!-- event fb -->
-  <!--<script>
-  fbq('track', 'CompleteRegistration', {
-  value: 25.00,
-  currency: 'USD'
-  });
-  </script>-->
-  <!-- end event fb -->
 
 </head>
 <body>
@@ -418,10 +380,9 @@
 
 	
 <!-- Footer oficial -->
-		<section class="hidden-xs" style="background-color: #1B1D1F; padding: 20px;">
-			<div class="row clearfix" style="padding: 0;">
-				<div class="col-xs-12 no-pad" style="border-bottom: 1px solid #C8C8C8; padding: 50px 0px 25px 0px; ">
-					<div class="col-xs-12 col-sm-3 SubFooter" style=" padding-left: 50px;">
+<section class="hidden-xs" style="background-color: #1B1D1F; padding: 20px;">
+			<div class="row" style="padding: 0;">
+									<div class="col col-md-3" style="padding-left: 50px;/* padding: 0; *//* margin: 0; */">
 					    <p class="vsp" style="font-size: 20px !important; margin-bottom: 5px;">VERSE <b>Technology</b></p>
 					    <p class="vsp">VERSE Technology</p>
 						<p class="vsp">VERSE Software S.A.P.I. de C.V.</p>
@@ -429,23 +390,23 @@
                         <br>
                         <p class="vsp">Nápoles | Benito Juárez</p>
                         <p class="vsp">Mexico City 03810</p>
-						</br>
-						</br>
-						</br>
-						<p class="vsp" style="margin-top: 20px;"><span class="copyright"> 2018 VERSE Technology</p>
+						<br>
+						<br>
+						<br>
+						<p class="vsp" style="margin-top: 20px;"><span class="copyright"> 2018 VERSE Technology</span></p>
 					</div>
-					<div class="col-xs-12 col-sm-3 SubFooter" style="padding-left: 50px;">
+					<div class="col col-md-3" style="padding-left: 50px;">
 					    <p class="vsp" style="font-size: 13px !important; margin: 2.5px 0px;"><b>COMPANY</b></p>
 						<p class="vsp">(+52) 1 55 4122 0131</p>
 						<p class="vsp">hi@verse-technology.com</p>
 						<a href="/vt/blog/" target="_blank"><p class="vsp">Blog</p></a>
 						<a href="/investment"><p class="vsp">Investment</p></a>
-						</br>
-						</br>
-						</br>
+						<br>
+						<br>
+						<br>
 						<a href="/privacy"><p class="vsp" style="margin-top: 17px;">Privacy Policy</p></a>
 					</div>
-					<div class="col-xs-12 col-sm-3 SubFooter" style="padding-left: 50px;">
+					<div class="col-md-3 SubFooter" style="padding-left: 50px;">
 						<p class="vsp" style="font-size: 13px !important; margin: 2.5px 0px;"><b>HARDWARE</b></p>
 						<a href="/goblin2"><p class="vsp">GOBLIN 2</p></a>
 						<a href="/goblin2plus"><p class="vsp">GOBLIN 2 Plus</p></a>
@@ -453,10 +414,10 @@
 						<p class="vsp" style="font-size: 13px !important; margin: 20px 0px 2.5px 0px;"><b>SOLUTIONS</b></p>
 						<a href="/kraken"><p class="vsp" style="padding-top: 0px;">Water monitoring</p></a>
 						<a href="/golem"><p class="vsp">Smart irrigation</p></a>
-						<a href="/oni"><p class="vsp">Temperature & Humidity</p></a>
-						<a href="/argos"><p class="vsp">Tracking & Logistics</p></a>
+						<a href="/oni"><p class="vsp">Temperature &amp; Humidity</p></a>
+						<a href="/argos"><p class="vsp">Tracking &amp; Logistics</p></a>
 					</div>
-					<div class="col-xs-12 col-sm-3 SubFooter" style="padding-left: 50px;">
+					<div class="col-md-3 SubFooter" style="padding-left: 50px;">
 						<p class="vsp" style="font-size: 13px !important; margin: 2.5px 0px;"><b>FIND US</b></p>
 						<ul class="socials">
 							<li>
@@ -471,10 +432,9 @@
            		<li>
 							-->
            						<a href="https://www.youtube.com/channel/UCoU72-E8t9C-9hKWhJuK80g"><i class="gv-youtube-03 footer1"></i><p class="vsp" style="display: inline-block; position: absolute; margin-top: 5px;">Youtube</p></a>
-           					</li>
+           					
 						</ul>
 					</div>
-				</div>
 			</div>
 
 			<div class="row clearfix" style="padding: 0;">
@@ -485,114 +445,11 @@
 				</div>
 			</div>
 		</section>
-		<!-- end footer -->
-		<section class="visible-xs" style="background-color: #1B1D1F; padding: 20px;">
-			<div class="row clearfix" style="padding: 0;">
-				<div class="col-xs-12 no-pad" style="padding: 30px 0px 25px 0px;">
-					<p class="menucollapse">
-					  <a class="btn btn-collapse" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-					    COMPANY
-					  </a>
-					</p>
-					<div class="collapse" id="collapseExample">
-					  <div class="card card-body">
-					    <p class="vsp" style="padding-top: 20px;">(+52) 1 55 4122 0131</p>
-						<p class="vsp">hi@verse-technology.com</p>
-						<a href="/vt/blog/" target="_blank"><p class="vsp">Blog</p></a>
-						<a href="/investment"><p class="vsp">Investment</p></a>
-						<a href="/privacy"><p class="vsp">Privacy Policy</p></a>
-					  </div>
-					</div>
-					<p class="menucollapse">
-					  <a class="btn btn-collapse" href="/hardware" aria-expanded="false">
-					    HARDWARE
-					  </a>
-					</p>
-					<div class="collapse" id="collapseExample1">
-					  <div class="card card-body">
-					    <a href="/goblin2"><p class="vsp" style="padding-top: 20px;">GOBLIN 2</p></a>
-						<a href="/goblin2plus"><p class="vsp">GOBLIN 2 Plus</p></a>
-						<a href="/goblin2plussigfox"><p class="vsp">GOBLIN 2 Plus Sigfox</p></a>
-					  </div>
-					</div>
-					<p class="menucollapse">
-            <a class="btn btn-collapse" href="/solutions" aria-expanded="false">
-              SOLUTIONS
-            </a>
-          </p>
-					<div class="collapse" id="collapseExample2">
-					  <div class="card card-body">
-							<a href="/kraken"><p class="vsp" style="padding-top: 10px;">Water Monitoring</p></a>
-							<a href="/golem"><p class="vsp">Smart Irrigation</p></a>
-							<a href="/oni"><p class="vsp">Temperature & Humidity</p></a>
-							<a href="/argos"><p class="vsp">Tracking & Logistics</p></a>
-					  </div>
-					</div>
-					<div class="col-xs-12 SubFooter" style="border-bottom: 1px solid #C8C8C8; padding: 0px;">
-						<div class="col-xs-3 redes">
-							<a href="https://www.facebook.com/versetechnology/" target="_blank"><i class="gv-facebook-03 redescolor"></i><p class="vsp" style="display: inline-block; position: absolute;"></p></a>
-						</div>
-						<div class="col-xs-3 redes">
-							<a href="https://twitter.com/VERSETechnology" target="_blank"><i class="gv-twitter-03 redescolor"></i><p class="vsp" style="display: inline-block; position: absolute;"></p></a>
-						</div>
-						<!--
-						<div class="col-xs-3 redes">
-							<a href="https://www.instagram.com/verse_technology"><i class="gv-instagram-03 redescolor"></i><p class="vsp" style="display: inline-block; position: absolute;"></p></a>
-						</div> -->
-						<div class="col-xs-3 redes">
-							<a href="https://www.youtube.com/channel/UCoU72-E8t9C-9hKWhJuK80g"><i class="gv-youtube-03 redescolor"></i><p class="vsp" style="display: inline-block; position: absolute;"></p></a>
-						</div>
-					</div>
-					<div class="col-xs-12">
-						<a href="https://www.grupoverse.com" target="_blank"><p class="menucollapse btn-collapse" style="border-bottom: none;">VERSE</p></a>
-					</div>
-				</div>
-			</div>
-		</section>
-		</div><!--div main-->
-	</div><!--div wrapper-->
+	</div><!--div main-->
+</div><!--div wrapper-->
 
-	<!-- Modal -->
-	<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel">
-	  <div class="modal-dialog" role="document" style="margin-top: 80px;">
-	    <div class="modal-content">
-	      <div class="modal-header" style="background-color: #0F2352; border: 1px solid #0F2352; text-align: center;">
-	        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: -12px;" style="color: #fff;"><span aria-hidden="true" style="color: #fff;">&times;</span></button>
-	        <h4 class="modal-title title-contact" id="myModalLabel">Contact us</h4>
-	      </div>
-	      <form action="thanks.php" method="post">
-		      <div class="modal-body text-contact">
-			        <div class="col-xs-12 no-pad">
-			        	<input type="text" name="name" class="col-xs-12 input-contact" placeholder="What's your name?" required="" style="margin-top: 20px;">
-			        </div>
-			        <div class="col-xs-12 no-pad">
-			        	<input type="email" name="email" class="col-xs-12 input-contact" placeholder="What's your e-mail?" required="">
-			    	</div>
-			    	<div class="col-xs-12 no-pad">
-			        	<input type="text" name="cellphone" class="col-xs-12 input-contact" pattern="[0-9]{10}" placeholder=" What's your WhatsApp?" required="">
-			        </div>
-			        <div class="col-xs-12 no-pad">
-			        	<textarea rows="3" type="text" name="message" class="col-xs-12 input-contact" placeholder="How can we help you?"></textarea>
-			        </div>
-		      </div>
-		      <div class="modal-footer" style="border-top: none; padding: 30px 50px;">
-		        <button name="submit" type="submit" class="btn btn-contact col-xs-12">Send your message</button>
-		      </div>
-	  	  </form>
-	    </div>
-	  </div>
-	</div>
-
-	<script src="js/jquery/jquery.min.js" type="text/javascript">
-	</script>
-	<script src="js/Bootstrap/bootstrap.min.js" type="text/javascript">
-	</script>
-	<script src="js/app.js"></script>
-	<script src="js/wow.js" type="text/javascript">
-	</script>
-	<script src="js/wow-custom.js" type="text/javascript">
-	</script>
-	<script src="https://use.fontawesome.com/06f1165186.js">
-	</script>
-</body>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
 </html>
