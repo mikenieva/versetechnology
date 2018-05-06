@@ -22,37 +22,37 @@
 	<!-- Navigation -->
 	<nav class="" role="navigation" style="border-bottom: none; background-color: #08142E">
 		<div class="container-fluid">
-			<div class="container">
-				<a class="navbar-brand" href="https://verse-technology.com/" style="width:100%">
-                    <img alt="" class="logoImg" src="http://localhost:8888/versetechnology-react-wp/wordpress-versetechnology/wp-content/themes/vt/images/Logo.png">
-                </a>
+			<div class="row">
+				<div class="navbar navbar-expand-xl col-md-offset-4 navbar-light justify-content-between" style="background-color:#08142E">
+					<a class="navbar-brand" href="https://verse-technology.com/">
+                    	<img alt="" class="logoImg" src="http://localhost:8888/versetechnology-react-wp/wordpress-versetechnology/wp-content/themes/vt/images/Logo.png">
+                	</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    					<span class="navbar-toggler-icon"></span>
+  					</button>
+					<div class="collapse navbar-collapse">
+            			<ul class="navbar-nav mr-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="/hardware" style="text-align: center;">Industries</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/hardware" style="text-align: center;">Industries</a>
+							</li>
+							<li class="nav-item">
+							<a class="nav-link" href="/hardware" style="text-align: center;">Industries</a>
+							</li>
+							<li class="nav-item">
+							<a class="nav-link" href="/hardware" style="text-align: center;">Industries</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/hardware" style="text-align: center;">Industries</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/hardware" style="text-align: center;">Industries</a>
+							</li>
+						</ul>
+					</div>	  
+				</div>
             </div>
-        </div>
-        
-    
-
-		<div style="display:inline-block;float: right;">
-            <ul class="nav navbar-nav" style="display: inline-block;">
-				<li style="display:inline-block;margin-right: 25px;">
-					<a href="/hardware" style="text-align: center;">Industries</a>
-				</li>
-				<li style="display:inline-block;margin-right: 25px;">
-					<a href="/solutions" style="text-align: center;">Blog</a>
-				</li>
-					<li style="display:inline-block;margin-right: 25px;">
-						<a href="/vt/blog/" style="text-align: center;">Press</a>
-					</li>
-					<li style="display:inline-block;margin-right: 25px;">
-						<a href="/investment" style="text-align: center;">Store</a>
-					</li>
-					<li style="display:inline-block;margin-right: 25px;">
-						<a href="/investment" style="text-align: center;">Careers</a>
-					</li>
-					<li style="display:inline-block;margin-right: 25px;">
-						<a href="/investment" style="text-align: center;">Investment</a>
-					</li>
-					<li style="display: inline-block;margin-right: 25px;"><a href="" style="text-align: center;"><img src="http://localhost:8888/versetechnology-react-wp/wordpress-versetechnology/wp-content/themes/vt/images/united-states.png"></a></li>
-				</ul>
-			</div><!-- /.navbar-collapse -->
-		</div><!-- /.container -->
+		</div>
 	</nav>
