@@ -39,7 +39,7 @@
     padding-bottom: 60px;
 ">Implementing our Complete Systems</h2></div>
 <div style="background-color: #2f69f0;width: 36%;display: inline-block;vertical-align: top;margin-left: 20%;">
-        <div class="description" style="margin-top: 34px;width: 70%;">
+        <div class="description" style="margin-top: 34px;width: 85%;">
 			<figure style="display: inline-block;vertical-align: top;">
 				<img src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/icn_variable.png" alt="" style="width: 60px;">
 			</figure>
@@ -48,7 +48,7 @@
 				<p class="description" style="color:white;display: inline-block;width: 308px;margin-top: 9px;">Measure any type of variable, such as temperature, humidity, conductivity, etc...</p>
 			</div>
 		</div>
-		<div class="description" style="margin-top: 34px;width: 70%;">
+		<div class="description" style="margin-top: 34px;width: 85%;">
 			<figure style="display: inline-block;vertical-align: top;">
 				<img src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/icn_hardware.png" alt="" style="width: 60px;">
 			</figure>
@@ -57,7 +57,7 @@
 				<p class="description" style="color:white;display: inline-block;width: 308px;margin-top: 9px;">Install devices anywhere such as fields, pools or enclosed spaces.</p>
 			</div>
 		</div>
-		<div class="description" style="margin-top: 34px;width: 70%;">
+		<div class="description" style="margin-top: 34px;width: 85%;">
 			<figure style="display: inline-block;vertical-align: top;">
 				<img src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/icn_monitoring.png" alt="" style="width: 60px;">
 			</figure>
@@ -264,10 +264,10 @@
     color: white;
     padding: 100px 12%;
 ">	
-	<div style="font-size: 9px;margin: 0px 100px;display: inline-block;">
+	<div style="font-size: 9px;margin: 0px 70px;display: inline-block;">
 		<h1 style="
     color: white;
-">Suscribe for updates</h1>
+">Subscribe for updates</h1>
 		<p style="
     width: 86%;
 ">Get our new releases, developments and applications in your inbox.</p>

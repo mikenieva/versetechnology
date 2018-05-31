@@ -40,7 +40,4 @@
 </form>
 
 </section>
-
-
-
 <?php get_footer() ?>
