@@ -1,14 +1,7 @@
 <?php get_header() ?>
 <section>
 		<div id="inicio" style="background-image: url('http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/VT_hero_home.jpg');margin: 0;background-position: -600px -735px;height: 700px;background-size: auto 1665px !important;">
-			<div class="" style="
-    width: 30%;
-    text-align: left;
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 325px;
-	
-">
+			<div class="" style="width: 30%;text-align: left;display: inline-block;vertical-align: top;margin-left: 325px;">
 				<div class="" style="padding: 80px 0px 25px;;width: 100%;">
 					<h1 style="
 					text-align: left;
@@ -107,8 +100,6 @@
 </div>
 
 </section>
-
-
 <div class="blog-2 section section-gray" style="background-color:#f1f5ff">
 	<div class="container">
 <div class="row">
@@ -118,28 +109,34 @@
  
 
 		<div class="row">
-		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-			<div class="col-md-4">
+		<?php query_posts('showposts=3'); if (have_posts()) : while (have_posts()) : the_post(); ?>
 
+			<div class="col-md-4">
 				<div class="card card-blog">
 					<div class="card-image">
-						<a href=" <?php the_permalink(); ?>">
-							<img class="img img-raised" src=" <?php the_post_thumbnail_url(); ?>"/>
+						<a href="<?php the_permalink(); ?>">
+							<img class="img img-raised" style="    width: 100%;" src=" <?php the_post_thumbnail_url(); ?>"/>
 						</a>
 					</div>
 					<div class="card-body">
-						<h6 class="card-category text-info">Agricultura</h6>
+						<h6 class="card-category text-info">
+							<?php 
+							$categories = get_the_category();
+							echo '<a href="' . esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . esc_html( $categories[0]->name ) . '</a>';
+							echo "</a>";
+							?>
+						</h6>
 						<h5 class="card-title">
-							<a href=""><?php the_title(); ?></a>
+							<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 						</h5>
 						<p class="card-description">
-							LinkedIn is today launching its official desktop application for Windows 10, allowing the professional social networking service to... <br/>
+							<?php the_excerpt(); ?><br/>
 						</p>
 					</div>
 				</div>
 			</div>
 			<?php endwhile; else : ?>
-			<?php endif; ?>
+			<?php endif; wp_reset_query(); ?>
 		</div>
 	</div>
 </div>
@@ -276,10 +273,9 @@
 ">Get our new releases, developments and applications in your inbox.</p>
 	</div>
 	<div style="display: inline-block;vertical-align: top;margin-top: 4em;margin: 4em 1% 0;">
-		<input type="text" style="border-radius: 5px;width: 302px;padding: 9px 15px 2px 15px;" placeholder="What's your email?">
+		<input type="text" style="border-radius: 5px;width: 302px;padding: 9px 15px 2px 15px;color:black;" placeholder="What's your email?">
 		<button style="background-color: #7ed322;border-radius: 5px;font-weight: bold;padding: 7px 32px;vertical-align: top;border: none;">Subscribe me</button>
 	</div>
 </div>
 
-
-<? get_footer() ?>	
+<?php get_footer() ?>
