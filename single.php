@@ -318,7 +318,7 @@
   								<a class="author" href="" rel="author">
   									<span class="name"><?php echo get_the_author(); ?></span>
   								</a>
-  								<time class="time" datetime="{{date format="YYYY-MM-DD HH:MM:SS"}}" itemprop="datePublished"><?php the_date(YYYY-MM-DD); ?></time>
+  								<time class="time" itemprop="datePublished"><?php the_date(YYYY-MM-DD); ?></time>
   							</div>
   						</div>
   					</div>

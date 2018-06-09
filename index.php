@@ -214,7 +214,7 @@
     background: #f1f5ff;
     margin: 0;
     width: 100%;
-    max-width: 1600px;
+    max-width: inherit;
 ">
 	<div class="col-md-4 col-md-offset-2">
 		<div class="card card-plain">
@@ -232,7 +232,7 @@
 													<a href="" class="btn btn-link btn-neutral" style="background-color: #2e69f0;">
 															<i class="fa fa-book" aria-hidden="true"></i> Go to Store
 													</a>
-													<a href="#pablo" class="btn btn-link btn-neutral" style="background-color: white; color:#2e69f0; border: 1px solid #2e69f0">
+													<a href="#pablo" class="btn btn-link btn-neutral" style="background-color: white; color:#2e69f0">
 														<i class="fa fa-book" aria-hidden="true"></i> Book a demo
 												</a>
 													
