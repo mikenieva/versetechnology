@@ -107,13 +107,13 @@
 }
 
 .single-post .post-content p{
-  font-family: 'Titillium Web';
-  max-width: 700px;
+  font-family: Arial;
+  max-width: 699px;
   margin: 0 auto;
-  font-size: 18px;
-  line-height: 3.6rem;
+  font-size: 17px;
+  line-height: 2.8rem;
   margin-bottom: 18px;
-  text-align: justify;
+  text-align: left;
 }
 
 .single-post .post-content h2, .single-post .post-content h3, .single-post .post-content h4 {
@@ -336,7 +336,7 @@
               	<ul class="share-links">
               		<!-- twitter -->
                   <li>
-              			<a class="twitter" href="https://twitter.com/share?url=<?php echo get_permalink();?>" onclick="window.open(this.href, 'twitter-share', 'width=580,height=296');return false;" title="Share on Twitter"><i class="fa fa-twitter"></i>Twitter</a>
+              			<a style="display: block;width: 120px;color: #ffffff;font-size: 14px;line-height: 28.5px;font-weight: bold;" class="twitter" href="https://twitter.com/share?url=<?php echo get_permalink();?>" onclick="window.open(this.href, 'twitter-share', 'width=580,height=296');return false;" title="Share on Twitter"><i class="fa fa-twitter"></i>Twitter</a>
               		</li>
                   <!-- facebook -->
               		<li>
@@ -344,7 +344,7 @@
               		</li>
                   <!-- linkedin -->
                   <li>
-              			<a class="linkedin" href="http://www.linkedin.com/shareArticle?mini=true&url=<?php echo get_permalink();?>" onclick="window.open(this.href, 'linkedin-share', 'width=580,height=296');return false;" title="Share on Linkedin"><i class="fa fa-linkedin"></i>Linkedin</a>
+              			<a style="display: block;width: 120px;color: #ffffff;font-size: 14px;line-height: 28.5px;font-weight: bold;"  class="linkedin" href="http://www.linkedin.com/shareArticle?mini=true&url=<?php echo get_permalink();?>" onclick="window.open(this.href, 'linkedin-share', 'width=580,height=296');return false;" title="Share on Linkedin"><i class="fa fa-linkedin"></i>Linkedin</a>
               		</li>
 
               	</ul>
@@ -354,16 +354,19 @@
                 		<a href="" title="">
                       <img src="<?php echo get_avatar_url(get_the_author_meta('ID')) ?>" alt="" class="avatar pull-left">
                     </a>
-                	<div class="details">
+                    <div class="details">
                 		<h4 class="author h4">
-                      <a href="">
-                        
+                      <a href="#" style="
+    font-weight: 600;
+">
+                        Mike Nieva
                       </a>
                     </h4>
 
-                		<div class="bio">
-                      <?php $authorDesc = the_author_meta('description'); echo $authorDesc; ?>
-                		</div>
+                		<div class="bio" style="
+    margin-top: 10px;
+">
+                      Cofundador de Personal Brander.                		</div>
                 		<ul class="meta-info">
                       
 
@@ -371,16 +374,7 @@
                 	</div>
                 </div>
   						</div>
-  						<div class="subscribe-box-wrap">
-                <div class="subscribe">
-                	<h3 class="subscribe-title align-center">¿Te gustó el artículo?</h3>
-                	<p class="align-center">Conoce nuestro curso gratuito para desarrollar tu marca personal hoy mismo.</p>
-                  <a href="https://personalbrander.org/cursos/fundamentos-marca-personal?utm_source=blog&utm_medium=articulo&utm_campaign=lanzamiento">
-                    <button class="btn btn-primary" type="submit">Entrar al curso</button>
-                  </a>
-                </div>
-  						</div>
-              <div class="comment-wrap">
+              <div class="comment-wrap" style="margin-bottom:40px;">
                 <div id="fb-root"></div>
                   <script>(function(d, s, id) {
                       var js, fjs = d.getElementsByTagName(s)[0];
