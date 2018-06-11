@@ -1,48 +1,31 @@
 <?php get_header() ?>
 
 	<section>
-	<div id="inicio" style="background-image: url('http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/VT_hero_home.jpg');margin: 0;background-position: -600px -735px;height: 590px;background-size: auto 1665px !important;">
+	<div id="inicio" style="background-image: url('<?php echo get_template_directory_uri() . '/images/VT_hero_home.jpg' ?>');margin: 0;background-position: -600px -735px;height: 590px;background-size: auto 1665px !important;">
 			<div class="" style="width: 30%;text-align: left;display: inline-block;vertical-align: top;margin-left: 325px;">
 				<div class="" style="padding: 0px 0px 25px;width: 100%;">
-					<h1 style="
-					text-align: left;
-    font-size: 39px;
-    line-height: 37px;
-    margin-left: 80px;
-    margin-top: 80px;    line-height: 52px;">Design House<br> &amp; IIoT Consultancy</h1>	
+					<h1 style="text-align: left;font-size: 39px;line-height: 37px;margin-left: 80px;margin-top: 80px;    line-height: 52px;">Design House<br> &amp; IIoT Consultancy</h1>	
 				</div>
 
-	<img style="margin-left: 80px; width: 270px;" src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/temperature.png" alt="">
-	<img style="margin-left: 80px; width: 270px;" src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/humidity.png" alt="">
-
-
+				<img style="margin-left: 80px; width: 270px;" src="<?php echo get_template_directory_uri() . '/images/temperature.png'?>" alt="">
+				<img style="margin-left: 80px; width: 270px;" src="<?php echo get_template_directory_uri() . '/images/humidity.png'?>" alt="">
 			</div>
 			<figure style="width: 45%;text-align: right;padding-right: 420px;display: inline-block;margin-top: 20px;">
-				<img style="width: 160px;" src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/dispositivo-oni.png" alt="">
+				<img style="width: 160px;" src="<?php echo get_template_directory_uri() . '/images/dispositivo-oni.png'?>" alt="">
 			</figure>
 		</div>
 	</section>
 
-<div style="
-    background-color: #2f69f0;
-    padding-bottom: 80px;
-">
-	<div style="
-    /* color: white; */
-    /* text-align: center; */
-    /* font-size: 20px; */
-    "><h2 style="
-    text-align: center;
-    font-size: 27px;
-    color: white;
-    padding-top: 60px;
-    margin: 0;
-    padding-bottom: 60px;
-">Implementing our Complete Systems</h2></div>
-<div style="background-color: #2f69f0;width: 36%;display: inline-block;vertical-align: top;margin-left: 20%;">
+	<div style="background-color: #2f69f0;padding-bottom: 80px;">
+		<div>
+			<h2 style="text-align: center;font-size: 27px;color: white;padding-top: 60px;margin: 0;padding-bottom: 60px;">
+				Implementing our Complete Systems
+			</h2>
+		</div>
+		<div style="background-color: #2f69f0;width: 36%;display: inline-block;vertical-align: top;margin-left: 20%;">
         <div class="description" style="margin-top: 34px;width: 85%;">
 			<figure style="display: inline-block;vertical-align: top;">
-				<img src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/icn_variable.png" alt="" style="width: 60px;">
+				<img src="<?php echo get_template_directory_uri() . '/images/icn_variable.png'?>" alt="" style="width: 60px;">
 			</figure>
 			<div style="display: inline-block;margin-left: 16px;">
 				<h4 class="info-title" style="color:white;display: block;vertical-align: top;margin: 0;" ;="">1. Variable</h4>
@@ -51,7 +34,7 @@
 		</div>
 		<div class="description" style="margin-top: 34px;width: 85%;">
 			<figure style="display: inline-block;vertical-align: top;">
-				<img src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/icn_hardware.png" alt="" style="width: 60px;">
+				<img src="<?php echo get_template_directory_uri() . '/images/icn_hardware.png'?>" alt="" style="width: 60px;">
 			</figure>
 			<div style="display: inline-block;margin-left: 16px;">
 				<h4 class="info-title" style="color:white;display: block;vertical-align: top;margin: 0;" ;="">2. Hardware</h4>
@@ -60,19 +43,19 @@
 		</div>
 		<div class="description" style="margin-top: 34px;width: 85%;">
 			<figure style="display: inline-block;vertical-align: top;">
-				<img src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/icn_monitoring.png" alt="" style="width: 60px;">
+				<img src="<?php echo get_template_directory_uri() . '/images/icn_monitoring.png'?>" alt="" style="width: 60px;">
 			</figure>
 			<div style="display: inline-block;margin-left: 16px;">
 				<h4 class="info-title" style="color:white;display: block;vertical-align: top;margin: 0;" ;="">3. Monitoring</h4>
 				<p class="description" style="color:white;display: inline-block;width: 308px;margin-top: 9px;">Access to the necessary information in real time. Access to the necessary information in real time.</p>
 			</div>
 		</div>
-</div>
+	</div>
 
 <div style="background-color: #2f69f0;width: 35%;display: inline-block;vertical-align: top;">
 		<div class="description" style="margin-top: 34px;">
 			<figure style="display: inline-block;vertical-align: top;">
-				<img src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/icn_monitoring.png" alt="" style="width: 60px;">
+				<img src="<?php echo get_template_directory_uri() . '/images/icn_monitoring.png'?>" alt="" style="width: 60px;">
 			</figure>
 			<div style="display: inline-block;margin-left: 16px;">
 				<h4 class="info-title" style="color:white;display: block;vertical-align: top;margin: 0;" ;="">4. Connectivity</h4>
