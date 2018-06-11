@@ -270,8 +270,6 @@
 	margin-bottom: 3.3em;
 	}
 	
-
-
   .cd-morph-dropdown .label {
 	display: block;
 	font-size: 2.2rem;
@@ -352,7 +350,28 @@
 	margin: 20px 0 10px 14px;
 	}
 	
-  @media only screen and (min-width: 1000px) {
+	.logomobile{
+			margin-top: 20px;
+		}
+
+		.navbar-brand {
+			width:100%;
+		}
+
+		.cd-main-content {
+		min-height: 100vh;
+		background-color: #ffffff;
+		}
+	
+
+	ul {
+    display: block;
+    list-style-type: none;
+	}
+
+
+
+  @media only screen and (min-width: 1200px) {
 			.cd-morph-dropdown {
 				position: absolute;
 				height: 80px;
@@ -613,29 +632,8 @@
 			.logomobile{
 				display:none;
 			}
-
-  }
-  
-  /* -------------------------------- 
-  
-  Main site content
-  
-	-------------------------------- */
-	
-		.logomobile{
-			margin-top: 20px;
-		}
-
-		.navbar-brand {
-			width:100%;
-		}
-
-		.cd-main-content {
-		min-height: 100vh;
-		background-color: #ffffff;
-		}
-		@media only screen and (min-width: 1000px) {
-		.cd-main-content {
+			
+			.cd-main-content {
 			padding-top: 80px;
 		}
 		.cd-morph-dropdown .main-nav > ul > li:first-child {
@@ -643,9 +641,28 @@
     display: inline-block;
     margin-top: 18px;
 		padding-right: 26%;
-}	
+	}	
+
+		.cd-morph-dropdown .main-nav > ul > li:first-child{
+			padding-right: 7%;
+		}
+
+		.cd-morph-dropdown .main-nav > ul > li > a{
+			font-size: 16px;
+			padding: 0 20px;
+		}
+
+
   }
 	
+	@media only screen and (min-width: 1400px) {
+		.cd-morph-dropdown .main-nav > ul > li:first-child {
+    padding-right: 25%;
+	}
+
+}
+
 
 
 </style>
+

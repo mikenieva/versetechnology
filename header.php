@@ -58,34 +58,45 @@
 			<div class="dropdown-list">
 				<ul>
 					<li id="about" class="dropdown gallery">
-						<a href="#0" class="label">About</a>
+						<a href="#0" class="label">Industries</a>
 						<div class="content">	
 							<ul>
 								<li>
 									<a href="#0">
-										<em>Title here</em>
-										<span>A brief description here</span>
+										<em>Agriculture</em>
 									</a>
 								</li>
 
 								<li>
 									<a href="#0">
-										<em>Title here</em>
-										<span>A brief description here</span>
+										<em>Manufacturing</em>
 									</a>
 								</li>
 
 								<li>
 									<a href="#0">
-										<em>Title here</em>
-										<span>A brief description here</span>
+										<em>Oil and Gas</em>
 									</a>
 								</li>
 
 								<li>
 									<a href="#0">
-										<em>Title here</em>
-										<span>A brief description here</span>
+										<em>Manufacturing</em>
+									</a>
+								</li>
+								<li>
+									<a href="#0">
+										<em>Logistics</em>
+									</a>
+								</li>
+								<li>
+									<a href="#0">
+										<em>Livestock</em>
+									</a>
+								</li>
+								<li>
+									<a href="#0">
+										<em>Smart Cities</em>
 									</a>
 								</li>
 							</ul>
@@ -93,29 +104,24 @@
 					</li>
 
 					<li id="pricing" class="dropdown links">
-						<a href="#0" class="label">Pricing</a>
+						<a href="#0" class="label">Company</a>
 
 						<div class="content">
 							<ul>
 								<li>
-									<h2>Services</h2>
+									<h2>Find Us</h2>
 
 									<ul class="links-list">
-										<li><a href="#0">Logo Design</a></li>
-										<li><a href="#0">Branding</a></li>
-										<li><a href="#0">Web Design</a></li>
-										<li><a href="#0">iOS</a></li>
-										<li><a href="#0">Android</a></li>
-										<li><a href="#0">HTML/CSS/JS</a></li>
-										<li><a href="#0">Packaging</a></li>
-										<li><a href="#0">Mobile</a></li>
-										<li><a href="#0">UI/UX</a></li>
-										<li><a href="#0">Prototyping</a></li>
+										<li><a href="#0">Blog</a></li>
+										<li><a href="#0">Press</a></li>
+										<li><a href="#0">Careers</a></li>
+										<li><a href="#0">Store</a></li>
+										<li><a href="#0">Investment</a></li>
 									</ul>
 								</li>
 
 								<li>
-									<h2>Projects</h2>
+									<h2>Find us</h2>
 
 									<ul class="links-list">
 										<li><a href="#0">Logo Design</a></li>
@@ -152,4 +158,4 @@
 			</div> <!-- dropdown-list -->
 		</div> <!-- morph-dropdown-wrapper -->
 	</header>
-	<main class="cd-main-content">
+	<main class="cd-main-content" id="main-content">
