@@ -1,5 +1,6 @@
 <?php get_header() ?>
-<section>
+
+	<section>
 		<div id="inicio" style="background-image: url('http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/VT_hero_home.jpg');margin: 0;background-position: -600px -735px;height: 700px;background-size: auto 1665px !important;">
 			<div class="" style="width: 30%;text-align: left;display: inline-block;vertical-align: top;margin-left: 325px;">
 				<div class="" style="padding: 80px 0px 25px;;width: 100%;">
