@@ -27,7 +27,7 @@
 			<ul>
 				<li>
 				<a class="navbar-brand" href="http://localhost:8888/wordpress-vt">
-					<img alt="" class="logoImg" src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/Logo.png">
+					<img alt="" class="logoImg" src="<?php echo get_template_directory_uri() . '/images/Logo.png'?>">
 				</a>
 				</li>
 				<li class="has-dropdown gallery" data-content="about">
