@@ -369,6 +369,9 @@
     list-style-type: none;
 	}
 
+	#main-content{
+		display:block;
+	}
 
 
   @media only screen and (min-width: 1200px) {
@@ -657,7 +660,7 @@
 	
 	@media only screen and (min-width: 1400px) {
 		.cd-morph-dropdown .main-nav > ul > li:first-child {
-    padding-right: 25%;
+    padding-right: 15%;
 	}
 
 }

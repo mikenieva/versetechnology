@@ -1,15 +1,15 @@
 <?php get_header() ?>
 
 	<section>
-		<div id="inicio" style="background-image: url('http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/VT_hero_home.jpg');margin: 0;background-position: -600px -735px;height: 700px;background-size: auto 1665px !important;">
+	<div id="inicio" style="background-image: url('http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/VT_hero_home.jpg');margin: 0;background-position: -600px -735px;height: 590px;background-size: auto 1665px !important;">
 			<div class="" style="width: 30%;text-align: left;display: inline-block;vertical-align: top;margin-left: 325px;">
-				<div class="" style="padding: 80px 0px 25px;;width: 100%;">
+				<div class="" style="padding: 0px 0px 25px;width: 100%;">
 					<h1 style="
 					text-align: left;
     font-size: 39px;
     line-height: 37px;
     margin-left: 80px;
-    margin-top: 80px;    line-height: 52px;">Design House<br> & IIoT Consultancy</h1>	
+    margin-top: 80px;    line-height: 52px;">Design House<br> &amp; IIoT Consultancy</h1>	
 				</div>
 
 	<img style="margin-left: 80px; width: 270px;" src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/temperature.png" alt="">
@@ -17,7 +17,7 @@
 
 
 			</div>
-			<figure style="width: 45%;text-align: right;padding-right: 420px;display: inline-block;margin-top: 158px;">
+			<figure style="width: 45%;text-align: right;padding-right: 420px;display: inline-block;margin-top: 20px;">
 				<img style="width: 160px;" src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/dispositivo-oni.png" alt="">
 			</figure>
 		</div>

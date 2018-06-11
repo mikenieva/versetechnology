@@ -51,6 +51,13 @@ jQuery(document).ready(function($){
 		this.element.on('click', '.nav-trigger', function(event){
 			event.preventDefault();
 			self.element.toggleClass('nav-open');
+			let status = document.getElementById("main-content").style.display;
+			if(status == "none"){
+				document.getElementById("main-content").style.display= "block"
+			} else{
+				document.getElementById("main-content").style.display="none";
+			}
+			
 		});
 	};
 

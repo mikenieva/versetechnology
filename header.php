@@ -36,19 +36,19 @@
 				<li class="has-dropdown links" data-content="pricing">
 					<a href="#0">Blog</a>
 				</li>
-				<li class="has-dropdown button" data-content="contact">
+				<li data-content="contact">
 					<a href="#0">Press</a>
 				</li>
-				<li class="has-dropdown button" data-content="contact">
+				<li data-content="contact">
 					<a href="#0">Store</a>
 				</li>
-				<li class="has-dropdown button" data-content="contact">
+				<li data-content="contact">
 					<a href="#0">Careers</a>
 				</li>
-				<li class="has-dropdown button" data-content="contact">
+				<li data-content="contact">
 					<a href="#0">Investment</a>
 				</li>
-				<li class="has-dropdown button" data-content="contact">
+				<li data-content="contact">
 					<a href="#0">English</a>
 				</li>
 			</ul>
@@ -109,7 +109,7 @@
 						<div class="content">
 							<ul>
 								<li>
-									<h2>Find Us</h2>
+									<h2>Sections</h2>
 
 									<ul class="links-list">
 										<li><a href="#0">Blog</a></li>
@@ -119,37 +119,16 @@
 										<li><a href="#0">Investment</a></li>
 									</ul>
 								</li>
-
 								<li>
-									<h2>Find us</h2>
-
-									<ul class="links-list">
-										<li><a href="#0">Logo Design</a></li>
-										<li><a href="#0">Branding</a></li>
-										<li><a href="#0">Web Design</a></li>
-										<li><a href="#0">iOS</a></li>
-										<li><a href="#0">Android</a></li>
-										<li><a href="#0">HTML/CSS/JS</a></li>
-									</ul>
+									<h2>Find Us</h2>
+								<ul class="links-list">
+								<li><a href="#0">Facebook</a></li>
+								<li><a href="#0">Twitter</a></li>
+								<li><a href="#0">Youtube</a></li>
+							</ul>
 								</li>
-							</ul>
-						</div>
-					</li>
 
-					<li id="contact" class="dropdown button">
-						<a href="#0" class="label">Contact</a>
-						
-						<div class="content">	
-							<ul class="links-list">
-								<li><a href="#0">Link #1</a></li>
-								<li><a href="#0">Link #2</a></li>
-								<li><a href="#0">Link #3</a></li>
-								<li><a href="#0">Link #4</a></li>
-								<li><a href="#0">Link #5</a></li>
-								<li><a href="#0">Link #6</a></li>
 							</ul>
-
-							<a href="#0" class="btn">Get in Touch</a>
 						</div>
 					</li>
 				</ul>
