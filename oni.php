@@ -38,7 +38,7 @@ Template Name: ONI
                         Disolved Oxygen</p>
                     </figure>
 				    <figure>
-                        <img src="<?php echo get_template_directory_uri() . '/images/icn_orp.png'?>" class="orp" style=""><p>ORP</p>
+                        <img src="<?php echo get_template_directory_uri() . '/images/icn_orp1.png'?>" class="orp" style=""><p>ORP</p>
                     </figure>
 				    <figure>
                         <img src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/icn_cloro.png" class="chlorine">
