@@ -703,18 +703,21 @@
 	#inicio .marketing figure .temperaturemetric{
 		margin-left: 15%; 
 		width: 170px;
+		display:none;
 	}
 
 	#inicio .marketing figure .humiditymetric{
 		margin-left: 15%;
 		width: 170px;
+		display:none;
 	}
 
 	#inicio .marketing .onihero{
     display: inline-block;
     width: 40%;
 		vertical-align: middle;
-    text-align: center;
+		text-align: center;
+		display:none;
 	}
 
 		#inicio .marketing figure.onihero img{
