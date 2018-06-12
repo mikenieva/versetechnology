@@ -9,9 +9,7 @@
     <meta name="description" content="VERSE Technology. Research, development, implementation and support for the Internet of Things."/>
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/Normalize/normalize.css' ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/Bootstrap/css/bootstrap.min.css' ?>">
-	
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/font-verse.css' ?>">
-	
 	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/paperkit.css' ?>">
 	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/style.css' ?>">
 	<link href="<?php echo get_template_directory_uri() . '/favicon.ico';?>" rel="shortcut icon" type="image/png">
@@ -21,12 +19,16 @@
 <body>
 
 <header class="cd-morph-dropdown">
-		<img alt="" class="logomobile" src="<?php echo get_template_directory_uri() . '/images/Logo.png'?>">
-		<a href="#0" class="nav-trigger"><span aria-hidden="true"></span></a>	
+		<a href="<?php echo get_home_url(); ?>">
+			<img alt="" class="logomobile" src="http://miguelnieva.webfactional.com/wp-content/themes/versetechnology/images/Logo.png">
+		</a>
+		<a href="#0" class="nav-trigger">
+			<span aria-hidden="true"></span>
+		</a>	
 		<nav class="main-nav">
 			<ul>
 				<li>
-				<a class="navbar-brand" href="http://localhost:8888/wordpress-vt">
+				<a class="navbar-brand" href="<?php echo get_home_url(); ?>">
 					<img alt="" class="logoImg" src="<?php echo get_template_directory_uri() . '/images/Logo.png'?>">
 				</a>
 				</li>

@@ -666,6 +666,125 @@
 }
 
 
+#inicio {
+	margin: 0;
+	background-position: -600px -735px;
+	height: 590px;
+	background-size: auto 1665px !important;
+}
+
+
+@media only screen and (min-width: 380px) {
+	#inicio .marketing{
+	width: 100%;
+	text-align: left;
+	display: inline-block;
+	vertical-align: top;
+	}
+
+	#inicio .marketing  .copyprincipal{
+	padding: 0px 0px 25px;
+	width: 100%;
+	}
+
+	#inicio .marketing  .copyprincipal h1{
+		text-align: left;
+    font-size: 26px;
+    margin-left: 7%;
+    margin-top: 0px;
+		line-height: 38px;
+	}
+
+	#inicio .marketing figure{
+		display:inline-block;
+		width: 50%;
+	}
+
+	#inicio .marketing .temperaturemetric{
+		margin-left: 15%; 
+		width: 170px;
+	}
+
+	#inicio .marketing .humiditymetric{
+		margin-left: 15%;
+		width: 170px;
+	}
+
+	#inicio .marketing .onihero{
+    display: inline-block;
+    width: 40%;
+		vertical-align: middle;
+    text-align: center;
+	}
+
+		#inicio .marketing .onihero img{
+		width: 126px;
+	}
+
+	section.completesystems{
+		background-color: #2f69f0;
+		padding-bottom: 80px;
+	}
+
+	section.completesystems div h2{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-top: 60px;
+    margin: 0;
+    padding-bottom: 60px;
+    font-weight: 300;
+    line-height: 45px;
+	}
+
+	section.completesystems div.icn{
+    background-color: #2f69f0;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 12%;
+	}
+
+	section.completesystems div.icn .description{
+		margin-top: 34px;
+		width: 85%;
+		display:inline-block;
+	}
+
+	section.completesystems div.icn .description .icndescription{
+		display: inline-block;
+		margin-left: 16px;
+		width: 80%;
+	}	
+
+	section.completesystems div.icn .description .icndescription p.description{
+		color:white;
+		display: inline-block;
+		margin-top: 9px;
+	}	
+
+
+	section.completesystems div.icn .description .icndescription h4{
+		color:white;
+		display: block;
+		vertical-align: top;
+		margin: 0;
+	}	
+
+	section.completesystems div.icn .description figure{
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	section.completesystems div.icn .description figure img{
+		width: 60px;
+	}
+
+	
+
+
+}
+
 
 </style>
 
