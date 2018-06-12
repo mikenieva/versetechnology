@@ -747,7 +747,8 @@
 	section.completesystems div.icn .description{
 		display: inline-block;
     margin-left: 16px;
-    width: 70%;
+		width: 90%;
+		margin-bottom: 15px;
 	}
 
 	section.completesystems div.icn .description .icndescription{
