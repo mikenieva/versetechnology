@@ -738,7 +738,7 @@
 
 	section.completesystems div.icn{
     background-color: #2f69f0;
-    width: 100%;
+    width: 85%;
     display: inline-block;
     vertical-align: top;
     margin-left: 12%;
@@ -753,7 +753,7 @@
 	section.completesystems div.icn .description .icndescription{
 		display: inline-block;
 		margin-left: 16px;
-		width: 72%;
+		width: 68%;
 	}	
 
 	section.completesystems div.icn .description .icndescription p.description{
