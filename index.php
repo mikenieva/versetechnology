@@ -43,11 +43,11 @@
 			</div>
 		<div class="description">
 			<figure>
-				<img src="<?php echo get_template_directory_uri() . '/images/icn_monitoring.png'?>">
+				<img src="<?php echo get_template_directory_uri() . '/images/icn_signal.png'?>">
 			</figure>
 			<div class="icndescription">
-				<h4 class="info-title">3. Monitoring</h4>
-				<p class="description">Access to the necessary information in real time.</p>
+				<h4 class="info-title">3. Connectivity</h4>
+				<p class="description">Connect to the platform at all times thanks to the extensive communication network that reaches remote locations.</p>
 			</div>
 		</div>
 
@@ -56,22 +56,22 @@
 				<img src="<?php echo get_template_directory_uri() . '/images/icn_monitoring.png'?>">
 			</figure>
 			<div class="icndescription">
-				<h4 class="info-title">4. Connectivity</h4>
-				<p class="description">Connect to the platform at all times thanks to the extensive communications network that reaches remote locations.</p>
-			</div>
-		</div>
-		<div class="description" style="margin-top: 34px;">
-			<figure>
-				<img src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/icn_notifications.png">
-			</figure>
-			<div class="icndescription">
-				<h4 class="info-title">5. Notifications</h4>
-				<p class="description">Receive alerts on any device.</p>
+				<h4 class="info-title">4. Monitoring</h4>
+				<p class="description">Access to the necessary information in real time.</p>
 			</div>
 		</div>
 		<div class="description">
 			<figure>
-				<img src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/icn_outcome.png">
+				<img src="<?php echo get_template_directory_uri() . '/images/icn_notifications.png'?>">
+			</figure>
+			<div class="icndescription">
+				<h4 class="info-title">5. Notifications</h4>
+				<p class="description">Receive alerts on any device when a variable is out of range.</p>
+			</div>
+		</div>
+		<div class="description">
+			<figure>
+				<img src="<?php echo get_template_directory_uri() . '/images/icn_outcome.png'?>">
 			</figure>
 			<div class="icndescription">
 				<h4 class="info-title">6. Results</h4>
@@ -79,6 +79,7 @@
 			</div>
 		</div>
 	</section>
+
 
 <section class="blog-2 section section-gray" style="background-color:#f1f5ff">
 	<div class="container">

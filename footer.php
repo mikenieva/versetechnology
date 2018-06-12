@@ -779,6 +779,9 @@
 	section.completesystems div.icn .description figure img{
 		width: 60px;
 	}
+
+	
+
 }
 
 
