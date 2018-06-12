@@ -171,7 +171,7 @@
 
 <style>
 
-	/* -------------------------------- 
+/* -------------------------------- 
 
  Header
 
@@ -664,8 +664,6 @@
 	}
 
 }
-
-
 #inicio {
 	margin: 0;
 	background-position: -600px -735px;
@@ -674,7 +672,8 @@
 }
 
 
-@media only screen and (min-width: 380px) {
+
+@media only screen and (min-width: 120px) {
 	#inicio .marketing{
 	width: 100%;
 	text-align: left;
@@ -754,7 +753,7 @@
 	section.completesystems div.icn .description .icndescription{
 		display: inline-block;
 		margin-left: 16px;
-		width: 80%;
+		width: 72%;
 	}	
 
 	section.completesystems div.icn .description .icndescription p.description{
@@ -779,10 +778,6 @@
 	section.completesystems div.icn .description figure img{
 		width: 60px;
 	}
-
-	
-
-
 }
 
 
