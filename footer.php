@@ -803,7 +803,7 @@
     background-color: #77c427;
     border-radius: 5px;
     color: white !important;
-    width: 39%;
+		width: 47%;
     vertical-align: top;
     text-align: center;
     padding-top: 6px !important;
@@ -816,7 +816,6 @@
 	h6.category a{
 		color: white !important;
 	}
-
 
 	section.trusted {
 		margin-bottom: 70px;
@@ -894,9 +893,9 @@
 			margin: 0 4%;
 		}		
 
+
+
 }
-
-
 
 </style>
 

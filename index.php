@@ -3,7 +3,7 @@
 		<div id="inicio" style="background-image: url('<?php echo get_template_directory_uri() . '/images/VT_hero_home.jpg' ?>');">
 				<div class="marketing">
 					<div class="copyprincipal">
-						<h1 style="">Design House &amp; IIoT Consultancy</h1>	
+						<h1 style="">Enabling Access to the Industrial Digital World</h1>	
 					</div>
 					<figure>
 						<img class="temperaturemetric" src="<?php echo get_template_directory_uri() . '/images/temperature.png'?>">
@@ -190,8 +190,8 @@
 		</div>
 	</div>
 	<div class="col-md-2 productos">
-		<img src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/oni.png">
-		<img src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/kraken3.png">
+		<img src="<?php echo get_template_directory_uri() . '/images/oni.png'?>">
+		<img src="<?php echo get_template_directory_uri() . '/images/kraken3.png'?>">
 	</div>
 </section>
 
