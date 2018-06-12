@@ -604,18 +604,17 @@
 	}
 
 	#inicio .marketing figure .temperaturemetric{
-		margin-left: 15%; 
-		width: 170px;
+        margin-left: 10%;
+    	width: 170px;
 	}
 
-	#inicio .marketing figure .humiditymetric{
-		margin-left: 15%;
-		width: 170px;
+	#inicio .marketing figure .humiditymetric {
+        margin-left: 10%;
+    	width: 170px;
 	}
-
 	#inicio .marketing .onihero{
     display: inline-block;
-    width: 40%;
+    width: 48%;
 		vertical-align: middle;
     text-align: center;
 	}
