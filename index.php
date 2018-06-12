@@ -179,21 +179,19 @@
 				</a>
 				<p class="card-description pitch">State-of-the-art devices designed to cover industrial requirements and implement complete IIoT solutions monitoring suitable variables.</p>
 				<div class="card-footer cta">
-					<a href="#" class="btn btn-link btn-neutral" style="background-color: #2e69f0;">
+					<a href="#" class="btn btn-link btn-neutral">
 						<i class="fa fa-book" aria-hidden="true"></i> Go to Store
 					</a>
-					<a href="#" class="btn btn-link btn-neutral" style="background-color: white; color:#2e69f0">
+					<a href="#" class="btn btn-link btn-neutral">
 						<i class="fa fa-book" aria-hidden="true"></i> Book a demo
 					</a>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="col-md-2" style="text-align:center;">
-		<img src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/oni.png" style="    width: 62%;">
-	</div>
-	<div class="col-md-2">
-		<img src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/kraken3.png" style="    width: 100%;">
+	<div class="col-md-2 productos">
+		<img src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/oni.png">
+		<img src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/kraken3.png">
 	</div>
 </section>
 

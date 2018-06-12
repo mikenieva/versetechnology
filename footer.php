@@ -869,6 +869,31 @@
     	text-align: center;
 		}
 
+		 section.meetsolutions .cta a:first-child{
+    	background-color: #2e69f0;
+		}
+		
+		section.meetsolutions .cta a:last-child{
+			background-color: white;
+			color:#2e69f0
+		}
+
+
+		section.meetsolutions div.productos{
+			text-align:center; 
+			padding-bottom: 30px;
+		}
+
+		section.meetsolutions div.productos img:first-child{
+			width: 100px;
+			margin: 0 4%;
+		}
+
+		section.meetsolutions div.productos img:last-child{
+			width: 165px;
+			margin: 0 4%;
+		}		
+
 }
 
 
