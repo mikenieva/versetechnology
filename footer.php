@@ -62,103 +62,9 @@
 				</div>
 			</div>
 		</section>
-		<!-- end footer -->
-		<section class="visible-xs" style="background-color: #1B1D1F; padding: 20px;">
-			<div class="row clearfix" style="padding: 0;">
-				<div class="col-xs-12 no-pad" style="padding: 30px 0px 25px 0px;">
-					<p class="menucollapse">
-					  <a class="btn btn-collapse" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-					    COMPANY
-					  </a>
-					</p>
-					<div class="collapse" id="collapseExample">
-					  <div class="card card-body">
-					    <p class="vsp" style="padding-top: 20px;">(+52) 1 55 4122 0131</p>
-						<p class="vsp">hi@verse-technology.com</p>
-						<a href="/vt/blog/" target="_blank"><p class="vsp">Blog</p></a>
-						<a href="/investment"><p class="vsp">Investment</p></a>
-						<a href="/privacy"><p class="vsp">Privacy Policy</p></a>
-					  </div>
-					</div>
-					<p class="menucollapse">
-					  <a class="btn btn-collapse" href="/industries" aria-expanded="false">
-					    Industries
-					  </a>
-					</p>
-					<div class="collapse" id="collapseExample1">
-					  <div class="card card-body">
-					    <a href="/goblin2"><p class="vsp" style="padding-top: 20px;">GOBLIN 2</p></a>
-						<a href="/goblin2plus"><p class="vsp">GOBLIN 2 Plus</p></a>
-						<a href="/goblin2plussigfox"><p class="vsp">GOBLIN 2 Plus Sigfox</p></a>
-					  </div>
-					</div>
-					<p class="menucollapse">
-            <a class="btn btn-collapse" href="/solutions" aria-expanded="false">
-              SOLUTIONS
-            </a>
-          </p>
-					<div class="collapse" id="collapseExample2">
-					  <div class="card card-body">
-							<a href="/kraken"><p class="vsp" style="padding-top: 10px;">Water Monitoring</p></a>
-							<a href="/golem"><p class="vsp">Smart Irrigation</p></a>
-							<a href="/oni"><p class="vsp">Temperature & Humidity</p></a>
-							<a href="/argos"><p class="vsp">Tracking & Logistics</p></a>
-					  </div>
-					</div>
-					<div class="col-xs-12 SubFooter" style="border-bottom: 1px solid #C8C8C8; padding: 0px;">
-						<div class="col-xs-3 redes">
-							<a href="https://www.facebook.com/versetechnology/" target="_blank"><i class="gv-facebook-03 redescolor"></i><p class="vsp" style="display: inline-block; position: absolute;"></p></a>
-						</div>
-						<div class="col-xs-3 redes">
-							<a href="https://twitter.com/VERSETechnology" target="_blank"><i class="gv-twitter-03 redescolor"></i><p class="vsp" style="display: inline-block; position: absolute;"></p></a>
-						</div>
-						<!--
-						<div class="col-xs-3 redes">
-							<a href="https://www.instagram.com/verse_technology"><i class="gv-instagram-03 redescolor"></i><p class="vsp" style="display: inline-block; position: absolute;"></p></a>
-						</div> -->
-						<div class="col-xs-3 redes">
-							<a href="https://www.youtube.com/channel/UCoU72-E8t9C-9hKWhJuK80g"><i class="gv-youtube-03 redescolor"></i><p class="vsp" style="display: inline-block; position: absolute;"></p></a>
-						</div>
-					</div>
-					<div class="col-xs-12">
-						<a href="https://www.grupoverse.com" target="_blank"><p class="menucollapse btn-collapse" style="border-bottom: none;">VERSE</p></a>
-					</div>
-				</div>
-			</div>
-		</section>
-		</div><!--div main-->
-	</div><!--div wrapper-->
-
-	<!-- Modal -->
-	<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel">
-	  <div class="modal-dialog" role="document" style="margin-top: 80px;">
-	    <div class="modal-content">
-	      <div class="modal-header" style="background-color: #0F2352; border: 1px solid #0F2352; text-align: center;">
-	        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: -12px;" style="color: #fff;"><span aria-hidden="true" style="color: #fff;">&times;</span></button>
-	        <h4 class="modal-title title-contact" id="myModalLabel">Contact us</h4>
-	      </div>
-	      <form action="thanks.php" method="post">
-		      <div class="modal-body text-contact">
-			        <div class="col-xs-12 no-pad">
-			        	<input type="text" name="name" class="col-xs-12 input-contact" placeholder="What's your name?" required="" style="margin-top: 20px;">
-			        </div>
-			        <div class="col-xs-12 no-pad">
-			        	<input type="email" name="email" class="col-xs-12 input-contact" placeholder="What's your e-mail?" required="">
-			    	</div>
-			    	<div class="col-xs-12 no-pad">
-			        	<input type="text" name="cellphone" class="col-xs-12 input-contact" pattern="[0-9]{10}" placeholder=" What's your WhatsApp?" required="">
-			        </div>
-			        <div class="col-xs-12 no-pad">
-			        	<textarea rows="3" type="text" name="message" class="col-xs-12 input-contact" placeholder="How can we help you?"></textarea>
-			        </div>
-		      </div>
-		      <div class="modal-footer" style="border-top: none; padding: 30px 50px;">
-		        <button name="submit" type="submit" class="btn btn-contact col-xs-12">Send your message</button>
-		      </div>
-	  	  </form>
-	    </div>
-	  </div>
+		</div>
 	</div>
+
 	</main>
 	</script>
 	
@@ -666,9 +572,9 @@
 }
 #inicio {
 	margin: 0;
-	background-position: -600px -735px;
-	height: 590px;
-	background-size: auto 1665px !important;
+  background-position: -520px -735px;
+  height: 612px;
+  background-size: auto 1665px !important;
 }
 
 
@@ -681,17 +587,17 @@
 	vertical-align: top;
 	}
 
-	#inicio .marketing  .copyprincipal{
+	#inicio .marketing .copyprincipal{
 	padding: 0px 0px 25px;
 	width: 100%;
 	}
 
-	#inicio .marketing  .copyprincipal h1{
+	#inicio .marketing .copyprincipal h1{
 		text-align: left;
-    font-size: 26px;
+    font-size: 32px;
     margin-left: 7%;
     margin-top: 0px;
-		line-height: 38px;
+    line-height: 49px;
 	}
 
 	#inicio .marketing figure{
@@ -727,7 +633,7 @@
 
 	section.completesystems div h2{
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     color: white;
     padding-top: 60px;
     margin: 0;
@@ -786,11 +692,12 @@
 
 	section.bloghome div.container div.row h2{
 		text-align:center;
-		font-size: 27px;
+		font-size: 40px;
 		color: #2f68f0;
 		font-weight:100;
 		margin-top: 0;
 		margin-bottom: 70px;
+		line-height: 40px;
 	}
 
 	h5.titulo{
@@ -850,6 +757,7 @@
 			width: 100%;
 			max-width: inherit;
 			padding-top: 20px;
+			padding-bottom: 45px;
 		}		
 
 		section.meetsolutions h3.titulo{
@@ -893,9 +801,193 @@
 			margin: 0 4%;
 		}		
 
+		section.subscription{
+			background-color: #2f69f0;
+			color: white;
+			padding: 40px 0%;
+		}
+
+		section.subscription div.titulo{
+			font-size: 9px;
+			width: 100%;
+			display: inline-block;
+			text-align: center;
+		}		
+
+		section.subscription div.titulo h1{
+			color: white;
+		}		
+		
+		section.subscription div.titulo p{
+			width: 100%;
+			font-size: 16px;
+		}		
+
+		section.subscription div.form{
+			display: inline-block;
+			vertical-align: top;
+			text-align: center;
+			margin-top: 20px;
+			width: 100%;
+		}
+
+		section.subscription div.form input{
+			border-radius: 5px;
+			width: 83%;
+			padding: 9px 9px 6px 15px;
+			color:black;
+			text-align: center;
+		}
+
+		section.subscription div.form button{
+			background-color: #7ed322;
+			border-radius: 5px;
+			font-weight: bold;
+			padding: 7px 32px;
+			vertical-align: top;
+			border: none;
+			margin-top: 20px
+	  }
+
+}
+
+@media only screen and (min-width: 650px) {
+	section.completesystems div.icn {
+    background-color: #2f69f0;
+    width: 87%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 17%;
+}
+
+#inicio .marketing figure .humiditymetric {
+    margin-left: 15%;
+    width: 250px;
+}
+
+#inicio .marketing figure .temperaturemetric {
+    margin-left: 15%;
+    width: 250px;
+}
+
+#inicio .marketing figure.onihero img {
+    width: 148px;
+}
+
+#inicio {
+	margin: 0;
+  background-position: -520px -735px;
+  height: 654px;
+  background-size: auto 1665px !important;
+}
+}
+
+@media only screen and (min-width: 976px) {
+	section.subscription div.form input {
+    border-radius: 5px;
+    width: 90%;
+    padding: 9px 9px 6px 15px;
+    color: black;
+    text-align: center;
+}
+
+#inicio .marketing figure .temperaturemetric {
+    margin-left: 15%;
+    width: 350px;
+}
+
+#inicio .marketing figure .humiditymetric {
+    margin-left: 15%;
+    width: 350px;
+}
+
+#inicio {
+    margin: 0;
+    background-position: -520px -735px;
+    height: 754px;
+    background-size: auto 1665px !important;
+}
+
+#inicio .marketing figure.onihero img {
+    width: 199px;
+}
+
+#inicio .marketing .copyprincipal h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 0px;
+		line-height: 49px;
+		margin-left: 0%;
+}
+
+}
+
+@media only screen and (min-width: 992px) {
+
+	div.att{
+		margin-left: 17%;
+	}
+
+section.completesystems div.icn {
+    background-color: #2f69f0;
+    width: 87%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 21%;
+}
+
+section.meetsolutions div.productos {
+		width: 38%;
+    margin-top: 95px;
+}
+
+section.subscription div.form button {
+    background-color: #7ed322;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px 24px;
+    vertical-align: top;
+    border: none;
+    margin-top: 0px;
+    width: 17%;
+}
+
+section.subscription div.form input {
+    border-radius: 5px;
+    width: 29%;
+    padding: 9px 9px 6px 15px;
+    color: black;
+    text-align: center;
+}
 
 
 }
+
+@media only screen and (min-width: 1200px) {
+	#inicio .marketing figure .temperaturemetric {
+    margin-left: 55%;
+    width: 350px;
+	}
+	
+	#inicio .marketing figure .humiditymetric {
+    margin-left: 55%;
+    width: 350px;
+	}
+
+}
+
+@media only screen and (min-width: 1440px) {
+
+section.completesystems div.icn {
+    background-color: #2f69f0;
+    width: 64%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 27%;
+}
+
+}
+
 
 </style>
 

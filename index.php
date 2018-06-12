@@ -126,7 +126,7 @@
             </div>
         </div>
         <div class="row fila">
-			<div class="col-md-2 col-md-offset-1" >
+			<div class="col-md-2 col-md-offset-1 att">
 				<div class="info">
 					<div class="icon icon-danger">
 						<i class="nc-icon nc-palette"></i>

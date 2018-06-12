@@ -20,7 +20,7 @@
 
 <header class="cd-morph-dropdown">
 		<a href="<?php echo get_home_url(); ?>">
-			<img alt="" class="logomobile" src="http://miguelnieva.webfactional.com/wp-content/themes/versetechnology/images/Logo.png">
+			<img alt="" class="logomobile" src="<?php echo get_template_directory_uri() . '/images/Logo.png'?>">
 		</a>
 		<a href="#0" class="nav-trigger">
 			<span aria-hidden="true"></span>
@@ -36,7 +36,7 @@
 					<a href="#0">Industries</a>
 				</li>
 				<li class="has-dropdown links" data-content="pricing">
-					<a href="#0">Blog</a>
+					<a href="<?php echo get_home_url() . "/blog"; ?>">Blog</a>
 				</li>
 				<li data-content="contact">
 					<a href="#0">Press</a>
@@ -60,11 +60,11 @@
 			<div class="dropdown-list">
 				<ul>
 					<li id="about" class="dropdown gallery">
-						<a href="#0" class="label">Industries</a>
+						<a href="#" class="label">Industries</a>
 						<div class="content">	
 							<ul>
 								<li>
-									<a href="#0">
+									<a href="">
 										<em>Agriculture</em>
 									</a>
 								</li>
@@ -114,7 +114,7 @@
 									<h2>Sections</h2>
 
 									<ul class="links-list">
-										<li><a href="#0">Blog</a></li>
+										<li><a href="<?php echo get_home_url() . "/blog"; ?>">Blog</a></li>
 										<li><a href="#0">Press</a></li>
 										<li><a href="#0">Careers</a></li>
 										<li><a href="#0">Store</a></li>
