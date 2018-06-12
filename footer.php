@@ -780,9 +780,97 @@
 		width: 60px;
 	}
 
-	
+	section.bloghome{
+		background-color:#f1f5ff
+	}
+
+	section.bloghome div.container div.row h2{
+		text-align:center;
+		font-size: 27px;
+		color: #2f68f0;
+		font-weight:100;
+		margin-top: 0;
+		margin-bottom: 70px;
+	}
+
+	h5.titulo{
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 27px;
+	}
+
+	h6.category{
+    background-color: #77c427;
+    border-radius: 5px;
+    color: white !important;
+    width: 39%;
+    vertical-align: top;
+    text-align: center;
+    padding-top: 6px !important;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+	}
+
+	h6.category a{
+		color: white !important;
+	}
+
+
+	section.trusted {
+		margin-bottom: 70px;
+	}
+
+		section.trusted .container .fila{
+			text-align: center;
+			margin-top:20px;
+		}
+
+		section.trusted .container .fila .text{
+			text-align: center;
+		}
+
+		section.trusted .container .fila .text h2{
+			font-size: 40px;
+			color: #2f68f0;
+			font-weight: 300;
+		}
+
+		section.trusted .container .fila .description img{
+			width: 100px;	
+		}
+
+		section.trusted .container .fila .description img.original{
+			width: auto;
+		}
+
+		section.meetsolutions{
+			background: #f1f5ff;
+			margin: 0;
+			width: 100%;
+			max-width: inherit;
+			padding-top: 20px;
+		}		
+
+		section.meetsolutions h3.titulo{
+			color: #2e69f0;
+			font-weight: 300;
+			text-align: center;
+			
+		}		
+		
+		section.meetsolutions p.pitch{
+			margin: 30px 9.5%;
+    	text-align: center;
+		}
+
+		section.meetsolutions .cta{
+    	text-align: center;
+		}
 
 }
+
 
 
 </style>
