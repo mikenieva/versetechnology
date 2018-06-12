@@ -738,16 +738,16 @@
 
 	section.completesystems div.icn{
     background-color: #2f69f0;
-    width: 85%;
+    width: 87%;
     display: inline-block;
     vertical-align: top;
-    margin-left: 12%;
+    margin-left: 10%;
 	}
 
 	section.completesystems div.icn .description{
-		margin-top: 34px;
-		width: 85%;
-		display:inline-block;
+		display: inline-block;
+    margin-left: 16px;
+    width: 70%;
 	}
 
 	section.completesystems div.icn .description .icndescription{
