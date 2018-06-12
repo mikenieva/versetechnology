@@ -700,12 +700,12 @@
 		width: 50%;
 	}
 
-	#inicio .marketing .temperaturemetric{
+	#inicio .marketing figure .temperaturemetric{
 		margin-left: 15%; 
 		width: 170px;
 	}
 
-	#inicio .marketing .humiditymetric{
+	#inicio .marketing figure .humiditymetric{
 		margin-left: 15%;
 		width: 170px;
 	}
@@ -717,7 +717,7 @@
     text-align: center;
 	}
 
-		#inicio .marketing .onihero img{
+		#inicio .marketing figure.onihero img{
 		width: 126px;
 	}
 
