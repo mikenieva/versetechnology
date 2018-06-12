@@ -857,7 +857,7 @@
 			color: #2e69f0;
 			font-weight: 300;
 			text-align: center;
-			
+			line-height: 42px;
 		}		
 		
 		section.meetsolutions p.pitch{
