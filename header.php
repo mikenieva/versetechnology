@@ -4,9 +4,8 @@
 	<meta content="width=device-width, initial-scale=1" name="viewport">
 	<meta charset="UTF-8">
 	<meta name="description" content="VERSE Technology"/>
-	<meta name="google-site-verification" content="eMm5vhErJw5nDnJ0pS3ujhbnRtO_USo7gVHAIw5j4No" />
 	<title>VERSE Technology</title>
-    <meta name="description" content="VERSE Technology. Research, development, implementation and support for the Internet of Things."/>
+    <meta name="description" content="VERSE Technology. Enabling Access to the Industrial Digital World."/>
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/Normalize/normalize.css' ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/Bootstrap/css/bootstrap.min.css' ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/font-verse.css' ?>">
@@ -35,23 +34,23 @@
 				<li class="has-dropdown gallery" data-content="about">
 					<a href="#0">Industries</a>
 				</li>
-				<li class="has-dropdown links" data-content="pricing">
+				<li data-content="contact">
 					<a href="<?php echo get_home_url() . "/blog"; ?>">Blog</a>
 				</li>
 				<li data-content="contact">
-					<a href="#0">Press</a>
+					<a href="<?php echo get_home_url() . "/blog/press"; ?>">Press</a>
 				</li>
 				<li data-content="contact">
-					<a href="#0">Store</a>
+					<a href="<?php echo get_home_url() . "/shop"; ?>">Store</a>
 				</li>
 				<li data-content="contact">
-					<a href="#0">Careers</a>
+					<a href="<?php echo get_home_url() . "/careers"; ?>">Careers</a>
 				</li>
 				<li data-content="contact">
-					<a href="#0">Investment</a>
+					<a href="<?php echo get_home_url() . "/investment"; ?>">Investment</a>
 				</li>
 				<li data-content="contact">
-					<a href="#0">English</a>
+					<a href="#0">Spanish</a>
 				</li>
 			</ul>
 		</nav>
@@ -64,40 +63,40 @@
 						<div class="content">	
 							<ul>
 								<li>
-									<a href="">
+									<a href="<?php echo get_home_url() . "/agriculture"; ?>">
 										<em>Agriculture</em>
 									</a>
 								</li>
 
 								<li>
-									<a href="#0">
+									<a href="<?php echo get_home_url() . "/aquaculture"; ?>">
+										<em>Aquaculture</em>
+									</a>
+								</li>
+
+								<li>
+									<a href="<?php echo get_home_url() . "/manufacturing"; ?>">
 										<em>Manufacturing</em>
 									</a>
 								</li>
 
 								<li>
-									<a href="#0">
+									<a href="<?php echo get_home_url() . "/oil-gas"; ?>">
 										<em>Oil and Gas</em>
 									</a>
 								</li>
-
 								<li>
-									<a href="#0">
-										<em>Manufacturing</em>
-									</a>
-								</li>
-								<li>
-									<a href="#0">
+									<a href="<?php echo get_home_url() . "/logistics"; ?>">
 										<em>Logistics</em>
 									</a>
 								</li>
 								<li>
-									<a href="#0">
+									<a href="<?php echo get_home_url() . "/livestock"; ?>">
 										<em>Livestock</em>
 									</a>
 								</li>
 								<li>
-									<a href="#0">
+									<a href="<?php echo get_home_url() . "/smartcities"; ?>">
 										<em>Smart Cities</em>
 									</a>
 								</li>

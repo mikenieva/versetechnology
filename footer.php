@@ -593,9 +593,8 @@
 	}
 
 	#inicio .marketing .copyprincipal h1{
-		text-align: left;
+		
     font-size: 32px;
-    margin-left: 7%;
     margin-top: 0px;
     line-height: 49px;
 	}
