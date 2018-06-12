@@ -29,11 +29,10 @@
 					<div class="col-xs-12 col-sm-3 SubFooter" style="padding-left: 50px;">
 						<p class="vsp" style="font-size: 13px !important; margin: 2.5px 0px;"><b>INDUSTRIES</b></p>
 						<br>
-						<a href="/goblin2"><p class="vsp">Agriculture</p></a>
-						<a href="/oni"><p class="vsp">Cattle</p></a>
-						<a href="/argos"><p class="vsp">Aquaculture</p></a>
-						<a href="/argos"><p class="vsp">Manufacturing</p></a>
-						<a href="/argos"><p class="vsp">Logistics & Supply Chain</p></a>
+						<a href="<?php echo get_home_url() . "/agriculture"; ?>"><p class="vsp">Agriculture</p></a>
+						<a href="<?php echo get_home_url() . "/aquaculture"; ?>"><p class="vsp">Aquaculture</p></a>
+						<a href="<?php echo get_home_url() . "/manufacturing"; ?>"><p class="vsp">Manufacturing</p></a>
+						<a href="<?php echo get_home_url() . "/logistics"; ?>"><p class="vsp">Logistics & Supply Chain</p></a>
 						<a href="/argos"><p class="vsp">Smart Cities</p></a>
 						<a href="/argos"><p class="vsp">Gas & Oil</p></a>
 					</div>
@@ -848,7 +847,175 @@
 			margin-top: 20px
 	  }
 
+		section.hero div.background{
+			margin: 0;width: 100%;
+			background-size: cover;
+			height: 600px;background-repeat  t: no-repeat;
+		}
+
+		section.hero div.background figure{
+			width: 100%;
+			text-align: center;
+			display: inline-block;
+			margin-top: 120px;
+			margin-left: 250px;
+		}
+
+			section.hero div.background h2{
+			padding-top:120px;
+			color: white;
+			font-weight: bold;
+			text-align: center;
+			font-size: 40px;
+		}
+
+		div.oni{
+			background: white;margin: 0;width: 100%;max-width: 1600px;
+		}
+
+		div.oni-down img{
+			width: 45%; 
+			margin-top:70px;
+			display: none;
+		}
+
+		div.oni .card-body{
+			margin-top:20px;
+		}
+
+		div.oni .card-body .oni-up{
+			text-align: center;
+    	background: #F6F6F6;
+			padding: 20px;
+			margin-bottom: 50px;
+		}
+
+		div.card-body .oni-up img{
+			width: 45%; 
+			margin-top:10px
+		}
+
+		div.oni .card-body .card-description{
+			font-size: 24px;
+		}
+
+		div.oni .card-body .card-title{
+			color: #2f69f0;
+			font-size: 35px;
+			font-weight: 300;
+		}
+
+		div.oni div.card-body div.iconos{
+			width: 100%;
+			margin: 0;
+			margin-top: 35px;
+			color: #2f69f0;
+			margin-bottom: 35px;
+		}
+
+		div.oni div.card-body figure{
+			display: inline-block;
+    	margin-right: 25px;
+    	vertical-align: top;
+    	text-align: center;
+    	padding: 10px 0;
+    	width: 54px;
+		}
+
+
+		div.oni div.card-body figure img{
+			width: 19px;
+			height: initial;
+		}
+
+		div.oni div.card-body figure img.salinity{
+			width: 40px;
+		}
+
+		div.oni div.card-body figure img.conductivity{
+			width: 22px;
+			height: initial;
+		}
+
+		div.oni div.card-body figure img.color{
+			width: 40px;
+			height: initial;
+		}
+
+		div.oni div.card-body figure img.oxygen{
+			width: 45px;
+			height: initial;
+		}
+
+		div.oni div.card-body figure img.orp{
+			width: 44px;
+			height: initial;
+		}
+
+		div.oni div.card-body figure img.chlorine{
+			width: 45px;
+			height: initial;
+		}
+
+		div.oni div.card-footer a{
+			background-color: #2e69f0;
+		}
+
+		div.oni div.card-footer a:hover{
+			background-color: black;
+		}
+
+		div.oni div.card-body figure p{
+			font-size: 13px;
+			margin-top: 12px;
+		}
+
+		section.casestudies{
+			background: #F1F5FF;
+			padding-bottom: 75px;
+		}
+
+		section.casestudies h2{
+			text-align: center;
+    	margin-bottom: 100px;
+    	margin-top: 0;
+    	padding-top: 60px;
+    	color: #2E69F0;
+    	font-weight: 300;
+    	font-size: 30px;
+
+		}
+
+		section.casestudies div.articulo{
+			padding-bottom: 80px;
+			text-align: center;
+		}
+
+		section.casestudies div.articulo .datos{
+			display: inline-block;
+			width: 76%;
+			vertical-align: top;
+			margin-top: 20px;
+		}
+
+		section.casestudies div.articulo .datos a h3{
+			margin: 0;
+			margin-bottom: 20px;
+		}
+
+		section.casestudies div.articulo figure{
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		section.casestudies div.articulo img.portada{
+			width: 300px;
+			border-radius: 16px;
+		}
+
+
 }
+
 
 @media only screen and (min-width: 650px) {
 	section.completesystems div.icn {
@@ -879,6 +1046,13 @@
   height: 654px;
   background-size: auto 1665px !important;
 }
+}
+
+@media only screen and (min-width: 470px) {
+	div.card-body .oni-up img {
+    width: 20%;
+    margin-top: 10px;
+	}
 }
 
 @media only screen and (min-width: 976px) {
@@ -959,6 +1133,30 @@ section.subscription div.form input {
     text-align: center;
 }
 
+	div.oni-up{
+			display: none;
+		}
+
+	div.oni-down img {
+    width: 77%;
+    margin-top: 70px;
+    display: block;
+    margin-right: 0;
+	}
+
+	section.casestudies div.articulo .datos {
+    display: inline-block;
+    width: 46%;
+    vertical-align: top;
+    margin-left: 5%;
+    text-align: left;
+	}
+
+	section.casestudies div.articulo {
+    text-align:center;
+	}
+
+
 
 }
 
@@ -973,6 +1171,7 @@ section.subscription div.form input {
     width: 350px;
 	}
 
+
 }
 
 @media only screen and (min-width: 1440px) {
@@ -985,7 +1184,11 @@ section.completesystems div.icn {
     margin: 0 27%;
 }
 
+
+
 }
+
+
 
 
 </style>
