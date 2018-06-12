@@ -21,7 +21,7 @@
 <body>
 
 <header class="cd-morph-dropdown">
-		<img alt="" class="logomobile" src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/Logo.png">
+		<img alt="" class="logomobile" src="<?php echo get_template_directory_uri() . '/images/Logo.png'?>">
 		<a href="#0" class="nav-trigger"><span aria-hidden="true"></span></a>	
 		<nav class="main-nav">
 			<ul>
