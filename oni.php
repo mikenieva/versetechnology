@@ -8,7 +8,7 @@ Template Name: ONI
 		<div class="card card-plain">
             <div class="card-body">
                 <div class="col-md-3 oni-up">
-                    <img src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/oni-ok.png" class="oni-ok">
+                    <img src="<?php echo get_template_directory_uri() . '/images/oni-ok.png'?>" class="oni-ok">
                 </div>
 
                 <a href="#productos">
@@ -17,25 +17,28 @@ Template Name: ONI
 			    <p class="card-description" style="">State-of-the-art devices designed to cover industrial requirements and implement complete IIoT solutions monitoring suitable variables.</p>
                 <div class="iconos">
     				<figure>
-                        <img src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/icn_temperature.png">
+                        <img 
+                        src="<?php echo get_template_directory_uri() . '/images/icn_temperature.png'?>">
                             <p>Temperature</p>
                     </figure>
 				    <figure>
-                        <img src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/icn_ph.png" class="salinity">
+                        <img src="<?php echo get_template_directory_uri() . '/images/icn_ph.png'?>" class="salinity">
                         <p>Salinity</p>
                     </figure>
 				    <figure>
-                        <img src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/icn_conductivity.png" class="conductivity" ><p>Conductivity</p>
+                        <img 
+                        src="<?php echo get_template_directory_uri() . '/images/icn_conductivity.png'?>"
+                        class="conductivity" ><p>Conductivity</p>
                     </figure>
                     <figure>
-                        <img src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/icn_color.png" class="color" ><p>Color</p>
+                        <img src="<?php echo get_template_directory_uri() . '/images/icn_color.png'?>" class="color" ><p>Color</p>
                     </figure>
                     <figure>
-                        <img src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/icn_oxigeno.png" class="oxygen"><p>
+                        <img src="<?php echo get_template_directory_uri() . '/images/icn_oxigeno.png'?>" class="oxygen"><p>
                         Disolved Oxygen</p>
                     </figure>
 				    <figure>
-                        <img src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/icn_orp.png" class="orp" style=""><p>ORP</p>
+                        <img src="<?php echo get_template_directory_uri() . '/images/icn_orp.png'?>" class="orp" style=""><p>ORP</p>
                     </figure>
 				    <figure>
                         <img src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/icn_cloro.png" class="chlorine">
