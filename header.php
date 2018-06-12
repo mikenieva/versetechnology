@@ -31,7 +31,7 @@
 					<img alt="" class="logoImg" src="<?php echo get_template_directory_uri() . '/images/Logo.png'?>">
 				</a>
 				</li>
-				<li class="has-dropdown gallery" data-content="about">
+				<li class="has-dropdown links" data-content="about">
 					<a href="#0">Industries</a>
 				</li>
 				<li data-content="contact">

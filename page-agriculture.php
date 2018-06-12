@@ -6,7 +6,8 @@
 
 <section class="casestudies">
 	<h2 style="">Applications</h2>
-   	<div class="articulo">
+	<?php query_posts('tag=casos'); if (have_posts()) : while (have_posts()) : the_post(); ?>
+	<div class="articulo">
 		<figure>
 			<a href="">
 				<img class="portada" src="http://localhost:8888/wordpress-vt/wp-content/uploads/2018/05/aliis-sinisalu-70432.jpg" style="">
@@ -14,13 +15,14 @@
 		</figure>
 		<div class="datos">
 			<a href="">
-				<h3>Título 1. De esto se trata.</h3>
+				<h3><?php the_title(); ?></h3>
 			</a>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+			<p><?php the_excerpt('100'); ?></p>
 	   </div>   
-	</div>
+	</div>	
+	<?php endwhile; else : ?>
+	<?php endif; wp_reset_query(); ?>
 </section>
 
 <?php get_template_part('subscribe') ?>
-
 <?php get_footer() ?>

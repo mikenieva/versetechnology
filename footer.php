@@ -866,7 +866,7 @@
 			color: white;
 			font-weight: bold;
 			text-align: center;
-			font-size: 40px;
+			font-size: 65px;
 		}
 
 		div.oni{
@@ -982,7 +982,7 @@
     	padding-top: 60px;
     	color: #2E69F0;
     	font-weight: 300;
-    	font-size: 30px;
+    	font-size: 40px;
 
 		}
 
@@ -1001,6 +1001,7 @@
 		section.casestudies div.articulo .datos a h3{
 			margin: 0;
 			margin-bottom: 20px;
+			font-size:30px;
 		}
 
 		section.casestudies div.articulo figure{
@@ -1013,6 +1014,13 @@
 			border-radius: 16px;
 		}
 
+		section.hero div.background figure {
+			width: 100%;
+			text-align: center;
+			display: inline-block;
+			margin-top: 120px;
+			margin-left: 0px;
+		}
 
 }
 
@@ -1085,13 +1093,13 @@
     width: 199px;
 }
 
-#inicio .marketing .copyprincipal h1 {
+	#inicio .marketing .copyprincipal h1 {
     font-size: 32px;
     text-align: center;
     margin-top: 0px;
-		line-height: 49px;
-		margin-left: 0%;
-}
+	line-height: 49px;
+	margin-left: 0%;
+	}
 
 }
 
@@ -1149,12 +1157,14 @@ section.subscription div.form input {
     width: 46%;
     vertical-align: top;
     margin-left: 5%;
-    text-align: left;
+	text-align: left;
+	margin-top: 0;
 	}
 
 	section.casestudies div.articulo {
     text-align:center;
 	}
+
 
 
 
@@ -1171,6 +1181,39 @@ section.subscription div.form input {
     width: 350px;
 	}
 
+	.cd-morph-dropdown .gallery .content{
+		background: #f2f6fe;
+	}
+
+	.cd-morph-dropdown .gallery .content a em{
+		font-size: 20px;
+    	padding: .8em 0 .2em;
+    	color: #1A1A1A;
+    	font-style: normal;
+	}
+
+	#main-content{
+		z-index: 0;
+    	position: relative;
+	}
+
+	.cd-main-content {
+    padding-top: 0px;
+	}
+
+	.cd-morph-dropdown{
+		position: relative;
+    	height: 80px;
+    	left: 0;
+    	top: 0;
+    	width: 100%;
+    	padding-left: 16%;
+	}
+	
+	.cd-morph-dropdown.is-dropdown-visible .morph-dropdown-wrapper{
+		z-index: 10;
+	}
+	
 
 }
 

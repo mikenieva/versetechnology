@@ -10,7 +10,7 @@ Template Name: Hero Industries
                 <?php echo get_the_title()?>
             </h2>
 			<figure>
-				<img src="<?php echo get_template_directory_uri() . '/images/medicionkraken.png'?>">
+				<img src="<?php echo get_template_directory_uri() . '/images/medidor-agricultura.png'?>">
 			</figure>
             
 		</div>
