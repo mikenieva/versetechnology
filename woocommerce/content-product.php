@@ -43,6 +43,10 @@
     	margin-bottom: 100px;
 	}
 
+	span.onsale{
+		display:none;
+	}
+
 
 </style>
 
