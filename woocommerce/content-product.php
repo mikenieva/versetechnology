@@ -56,6 +56,30 @@
     	text-align: center;
 	}
 
+	.woocommerce-Price-amount{
+		color: #9B9B9B;
+    	font-weight: bold;
+	}
+
+	a del{
+		color: #9B9B9B;
+	}
+
+	.woocommerce-message{
+		text-align: center;
+    	border: 1px solid #9a9b9b;
+    	margin: 10px 25% 70px;
+    	padding: 20px 0 20px;		
+	}
+
+	.woocommerce-message a{
+		color: #2b66ff;
+    	text-decoration: underline;
+	}
+
+	.wc-forward{
+		display: block;
+	}
 
 </style>
 
