@@ -47,6 +47,10 @@
 		display:none;
 	}
 
+	.add_to_cart_button{
+		display:block;
+	}
+
 
 </style>
 
