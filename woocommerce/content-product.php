@@ -49,6 +49,11 @@
 
 	.add_to_cart_button{
 		display:block;
+		background: #2b66ff;
+    	color: white;
+    	border-radius: 10px;
+    	margin: 15px 35% 0px;
+    	text-align: center;
 	}
 
 
