@@ -1,3 +1,51 @@
+<style>
+	.woocommerce-breadcrumb{
+		display:none;
+	}
+	.woocommerce-products-header{
+    	margin-top: 50px;
+    	margin-bottom: 60px;
+	}
+
+	h1.woocommerce-products-header__title{
+    	text-align: center;
+    	color: #2b66ff;
+    	font-weight: 300;
+    	font-size: 31px;
+	}
+
+	.woocommerce-ordering{
+		display:none;
+	}
+
+	#sidebar{
+		display:none;
+	}
+
+	.woocommerce-result-count{
+		display:none;
+	}
+
+	h2.woocommerce-loop-product__title{
+		text-align: center;
+	}
+
+	.has-post-thumbnail{
+	    width: 30%;
+	    display: inline-block;
+	    text-align: center;
+	}
+
+	.product-type-simple{
+	    width: 30%;
+	    display: inline-block;
+	    text-align: center;
+	
+	}
+
+
+</style>
+
 <?php
 /**
  * The template for displaying product content within loops
