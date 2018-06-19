@@ -37,10 +37,10 @@
 	}
 
 	.product-type-simple{
-	    width: 30%;
-	    display: inline-block;
-	    text-align: center;
-	
+	    width: 32%;
+    	display: inline-block;
+    	text-align: center;
+    	margin-bottom: 100px;
 	}
 
 
