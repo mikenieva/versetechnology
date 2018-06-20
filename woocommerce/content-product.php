@@ -37,7 +37,7 @@
 	}
 
 	.product-type-simple{
-	    width: 32%;
+	    width: 33%;
     	display: inline-block;
     	text-align: center;
     	margin-bottom: 100px;
@@ -80,6 +80,8 @@
 	.wc-forward{
 		display: block;
 	}
+
+	
 
 </style>
 

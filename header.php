@@ -33,23 +33,23 @@
 				<li class="has-dropdown links" data-content="about">
 					<a href="#0">Industries</a>
 				</li>
-				<li data-content="contact">
+				<li>
 					<a href="<?php echo get_home_url() . "/blog"; ?>">Blog</a>
 				</li>
-				<li data-content="contact">
+				<li>
 					<a href="<?php echo get_home_url() . "/blog/press"; ?>">Press</a>
 				</li>
-				<li data-content="contact">
-					<a href="<?php echo get_home_url() . "/shop"; ?>">Store</a>
+				<li>
+					<a href="<?php echo get_home_url() . "/shop"; ?>">Shop</a>
 				</li>
-				<li data-content="contact">
+				<li>
 					<a href="<?php echo get_home_url() . "/careers"; ?>">Careers</a>
 				</li>
-				<li data-content="contact">
+				<li>
 					<a href="<?php echo get_home_url() . "/investment"; ?>">Investment</a>
 				</li>
-				<li data-content="contact">
-					<a href="#0">Spanish</a>
+				<li>
+					<a href="<?php echo get_home_url() . "/es"; ?>">Spanish</a>
 				</li>
 			</ul>
 		</nav>
@@ -113,9 +113,9 @@
 
 									<ul class="links-list">
 										<li><a href="<?php echo get_home_url() . "/blog"; ?>">Blog</a></li>
-										<li><a href="#0">Press</a></li>
-										<li><a href="#0">Careers</a></li>
-										<li><a href="#0">Store</a></li>
+										<li><a href="<?php echo get_home_url() . "/blog/press"; ?>">Press</a></li>
+										<li><a href="<?php echo get_home_url() . "/careers"; ?>">Careers</a></li>
+										<li><a href="<?php echo get_home_url() . "/shop"; ?>">Shop</a></li>
 										<li><a href="#0">Investment</a></li>
 									</ul>
 								</li>

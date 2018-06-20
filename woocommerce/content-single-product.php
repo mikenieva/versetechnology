@@ -1,3 +1,130 @@
+<style>
+
+a{
+	color: #2b66ff;
+}
+
+.product{	
+    width: 90%;
+    text-align: left;
+    margin-top: 106px;
+    margin-left: 5%;
+    margin-right: 5%;
+}	
+
+.woocommerce-product-gallery{
+
+    display: inline-block;
+    width: 53%;
+    text-align: center;
+
+}
+
+	.woocommerce-message{
+		text-align: center;
+    	border: 1px solid #9a9b9b;
+    	margin: 40px 25% 10px;
+    	padding: 20px 0 20px;		
+	}
+
+	.woocommerce-message a{
+		color: #2b66ff;
+    	text-decoration: underline;
+	}
+	
+	.woocommerce-Tabs-panel h3{
+    	margin-top: 80px;
+	}
+
+.wc-forward{
+	display: block;
+}
+
+.price{
+    margin-bottom: 20px;	
+}
+
+.cart{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.single_add_to_cart_button{
+    margin-top: 40px;
+    display: block;
+    background: #2b66ff;
+    color: white;
+    border-radius: 10px;
+}
+
+.posted_in{
+    display: block;
+    margin-bottom: 11px;
+}
+
+.wc-tabs{
+	display: none;
+}
+
+.woocommerce-tabs{
+    margin-left: 7%;
+    margin-top: 85px;
+}
+
+.woocommerce-Tabs-panel h2{
+    line-height: 34px;
+    color: #2E69F0;
+    font-weight: 400;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.woocommerce-Price-amount{
+	color: #9B9B9B;
+    font-weight: bold;
+}
+
+#sidebar {
+	display: none;
+}
+
+figure.woocommerce-product-gallery__wrapper div:nth-child(1){
+	display: block;
+}
+
+figure.woocommerce-product-gallery__wrapper div:nth-child(2){
+	display:inline-block;
+	margin-right: 20px;
+}
+
+figure.woocommerce-product-gallery__wrapper div:nth-child(3){
+	display:inline-block;
+	margin-right: 20px;
+}
+
+figure.woocommerce-product-gallery__wrapper div:nth-child(4){
+	display:inline-block;
+	margin-right: 20px;
+}
+
+.woocommerce-breadcrumb{
+	display: none;
+}
+
+
+.summary{
+    display: inline-block;
+    width: 41%;
+    vertical-align: top;	
+}
+
+.summary h1{
+	font-size: 26px;
+    line-height: 50px;
+}
+
+</style>
+
 <?php
 /**
  * The template for displaying product content in the single-product.php template
