@@ -30,10 +30,11 @@
 }
 .single-post .post-head a:hover,
 .single-post .post-head a:focus {
-  color: #19ddc4;
+  text-decoration: underline;
 }
 .single-post .post-head .category {
   position: relative;
+  font-size: 26px;
 }
 .single-post .post-head .category:before,
 .single-post .post-head .category:after {
@@ -58,6 +59,7 @@
   color: #ffffff;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   margin: 32px 0px;
+  font-size: 38px;
 }
 .single-post .post-head .page-title {
   margin: 0px;
@@ -69,19 +71,10 @@
   margin-right: 12px;
 }
 .single-post .post-head .post-meta .time {
-  margin-left: 12px;
   position: relative;
+  font-weight: 300;
 }
-.single-post .post-head .post-meta .time:before {
-  content: '';
-  width: 1px;
-  height: 12px;
-  background-color: rgba(255, 255, 255, 0.5);
-  position: absolute;
-  left: -13px;
-  top: 50%;
-  margin-top: -6px;
-}
+
 .single-post .post-head.no-image {
   padding: 80px 0px;
 }
@@ -111,7 +104,7 @@
   max-width: 699px;
   margin: 0 auto;
   font-size: 17px;
-  line-height: 2.8rem;
+  line-height: 2.4rem;
   margin-bottom: 18px;
   text-align: left;
 }
@@ -315,9 +308,6 @@
   							</span>
   							<h1 class="title"><?php the_title() ?></h2>
   							<div class="post-meta">
-  								<a class="author" href="" rel="author">
-  									<span class="name"><?php echo get_the_author(); ?></span>
-  								</a>
   								<time class="time" datetime="{{date format="YYYY-MM-DD HH:MM:SS"}}" itemprop="datePublished"><?php the_date(); ?></time>
   							</div>
   						</div>
@@ -349,32 +339,7 @@
 
               	</ul>
               </div>
-  						<div class="about-author-wrap">
-                <div class="about-author clearfix">
-                		<a href="" title="">
-                      <img src="<?php echo get_avatar_url(get_the_author_meta('ID')) ?>" alt="" class="avatar pull-left">
-                    </a>
-                    <div class="details">
-                		<h4 class="author h4">
-                      <a href="#" style="
-    font-weight: 600;
-">
-                        Mike Nieva
-                      </a>
-                    </h4>
-
-                		<div class="bio" style="
-    margin-top: 10px;
-">
-                      Cofundador de Personal Brander.                		</div>
-                		<ul class="meta-info">
-                      
-
-                		</ul>
-                	</div>
-                </div>
-  						</div>
-              <div class="comment-wrap" style="margin-bottom:40px;">
+              <div class="comment-wrap" style="margin-bottom:40px;margin-bottom: 40px;padding: 0 6%;">
                 <div id="fb-root"></div>
                   <script>(function(d, s, id) {
                       var js, fjs = d.getElementsByTagName(s)[0];
