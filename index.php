@@ -1,6 +1,10 @@
 <?php get_header() ?>
-
-
+	<section>
+		<div id="inicio" style="background-image: url('<?php echo get_template_directory_uri() . '/images/VT_hero_home.jpg' ?>');">
+				
+			</div>
+	</section>
+<!--
 	<section class="completesystems">
 		<div>
 			<h2>
@@ -70,7 +74,7 @@
 		</div>
 
 	</section>
-
+-->
 
 <section class="blog-2 section section-gray bloghome">
 	<div class="container">
