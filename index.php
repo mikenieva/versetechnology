@@ -20,7 +20,7 @@
 				
 		</div>
 	</section>
-<!--
+
 	<section class="completesystems">
 		<div>
 			<h2>
@@ -90,7 +90,7 @@
 		</div>
 
 	</section>
--->
+
 
 <section class="blog-2 section section-gray bloghome">
 	<div class="container">
