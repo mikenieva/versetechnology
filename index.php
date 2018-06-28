@@ -85,9 +85,9 @@
 			</div>
 
 		</div>
-
-	</section>
 -->
+	</section>
+
 
 <section class="blog-2 section section-gray bloghome">
 	<div class="container">
