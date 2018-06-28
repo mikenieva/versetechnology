@@ -56,6 +56,7 @@
 				</div>
 			</div>
 			-->
+			<!--
 			<div class="firstcolumn">
 				<div class="description square4">
 					<figure>
@@ -84,8 +85,9 @@
 						<p class="description">Get more benefit from the impact that optimization and automation of your processes will have in making decisions with reliable data.</p>
 					</div>
 				</div>
-
 			</div>
+			-->
+		</div>
 		
 	</section>
 
