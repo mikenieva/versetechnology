@@ -124,59 +124,6 @@
 	</div>
 </section>
 
-<section class="trusted">
-	<div class="container">
-		<div class="row fila">
-			<div class="text-center text">
-				<h2 class="title">Trusted by</h2>
-            </div>
-        </div>
-        <div class="row fila">
-			<div class="col-md-2 col-md-offset-1 att">
-				<div class="info">
-					<div class="icon icon-danger">
-						<i class="nc-icon nc-palette"></i>
-					</div>
-					<div class="description">
-						<img src="<?php echo get_template_directory_uri() . '/images/att-logo.png' ?>">
-					</div>
-				</div>
-			</div>
-			<div class="col-md-2">
-				<div class="info">
-					<div class="icon icon-danger">
-						<i class="nc-icon nc-palette"></i>
-					</div>
-					<div class="description">
-						<img src="<?php echo get_template_directory_uri() . '/images/sigfox.png'?>">
-					</div>
-				</div>
-			</div>
-			<div class="col-md-2">
-				<div class="info">
-					<div class="icon icon-danger">
-						<i class="nc-icon nc-palette"></i>
-					</div>
-					<div class="description">
-						<img src="<?php echo get_template_directory_uri() . '/images/microsoft2x.png'?>">
-					</div>
-				</div>
-			</div>
-			<div class="col-md-2">
-				<div class="info">
-					<div class="icon icon-danger">
-						<i class="nc-icon nc-palette"></i>
-					</div>
-					<div class="description">
-						<img class="original" src="<?php echo get_template_directory_uri() .  '/images/arduinoblue.png'?>">
-					</div>
-				</div>
-			</div>
-		</div>							
-	</div>
-</section>
-	
-
 <!--
 <?php get_template_part('subscribe') ?>
 -->
