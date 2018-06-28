@@ -10,7 +10,8 @@
                         <p class="vsp">Insurgentes Sur 859 | Piso 2</p>
                         <p class="vsp">Nápoles | Benito Juárez</p>
                         <p class="vsp">Mexico City 03810</p>
-						<p class="vsp" style="margin-top: 20px;"><span class="copyright"> Privacy Policy</p>
+						<!--<p class="vsp" style="margin-top: 20px;"><span class="copyright"> Privacy Policy</p>-->
+						<br>
 						<p class="vsp" style=""><span class="copyright"> 2018 VERSE Technology</p>
 					</div>
 					<div class="col-xs-12 col-sm-3 SubFooter" style="padding-left: 50px;">
@@ -18,11 +19,13 @@
 							<br>
 						<p class="vsp">(+52) 1 551 828 0521</p>
 						<p class="vsp">hi@verse-technology.com</p>
+						<!--
 						<a href="/blog/" target="_blank"><p class="vsp">Blog</p></a>
 						<a href="/press"><p class="vsp">Press</p></a>
 						<a href="/careers"><p class="vsp">Careers</p></a>
 						<a href="/store"><p class="vsp">Store</p></a>
 						<a href="/investment"><p class="vsp">Investment</p></a>
+						-->
 						</br>
 						</br>
 					</div>
@@ -34,7 +37,7 @@
 						<a href="<?php echo get_home_url() . "/manufacturing"; ?>"><p class="vsp">Manufacturing</p></a>
 						<a href="<?php echo get_home_url() . "/logistics"; ?>"><p class="vsp">Logistics & Supply Chain</p></a>
 						<a href="/argos"><p class="vsp">Smart Cities</p></a>
-						<a href="/argos"><p class="vsp">Gas & Oil</p></a>
+						<!-- <a href="/argos"><p class="vsp">Gas & Oil</p></a> -->
 					</div>
 					<div class="col-xs-12 col-sm-3 SubFooter" style="padding-left: 50px;">
 						<p class="vsp" style="font-size: 13px !important; margin: 2.5px 0px;"><b>FIND US</b></p>

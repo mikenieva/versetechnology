@@ -30,9 +30,14 @@
 					<img alt="" class="logoImg" src="<?php echo get_template_directory_uri() . '/images/Logo.png'?>">
 				</a>
 				</li>
-				<li class="has-dropdown links" data-content="about">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li class="has-dropdown links industriesnav" data-content="about" style="float:right;">
 					<a href="#0">Industries</a>
 				</li>
+				<!--
 				<li>
 					<a href="<?php echo get_home_url() . "/blog"; ?>">Blog</a>
 				</li>
@@ -48,9 +53,12 @@
 				<li>
 					<a href="<?php echo get_home_url() . "/investment"; ?>">Investment</a>
 				</li>
-				<li>
+
+				-->
+				<!-- <li>
 					<a href="<?php echo get_home_url() . "/es"; ?>">Spanish</a>
 				</li>
+				-->
 			</ul>
 		</nav>
 		
