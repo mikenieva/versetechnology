@@ -54,7 +54,7 @@
 				</div>
 			</div>
 		</div>
-
+		-->
 		<div class="firstcolumn">
 			<div class="description square4">
 				<figure>
@@ -85,7 +85,7 @@
 			</div>
 
 		</div>
--->
+
 	</section>
 
 
