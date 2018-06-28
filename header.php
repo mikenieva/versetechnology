@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/font-verse.css' ?>">
 	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/paperkit.css' ?>">
 	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/style.css' ?>">
-	<link href="<?php echo get_template_directory_uri() . '/favicon.ico';?>" rel="shortcut icon" type="image/png">
+	<link href="<?php echo get_template_directory_uri() . '/images/favicon.ico';?>" rel="shortcut icon" type="image/png">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -86,12 +86,13 @@
 										<em>Manufacturing</em>
 									</a>
 								</li>
-
+<!--
 								<li>
 									<a href="<?php echo get_home_url() . "/oil-gas"; ?>">
 										<em>Oil and Gas</em>
 									</a>
 								</li>
+-->
 								<li>
 									<a href="<?php echo get_home_url() . "/logistics"; ?>">
 										<em>Logistics</em>
@@ -111,6 +112,7 @@
 						</div>
 					</li>
 
+<!--
 					<li id="pricing" class="dropdown links">
 						<a href="#0" class="label">Company</a>
 
@@ -139,6 +141,7 @@
 							</ul>
 						</div>
 					</li>
+-->
 				</ul>
 
 				<div class="bg-layer" aria-hidden="true" style="transform: scaleX(390) scaleY(320);"></div>

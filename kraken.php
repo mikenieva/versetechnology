@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: ONI
+Template Name: Kraken
 */
 ?>
 <div class="row oni">
@@ -12,7 +12,7 @@ Template Name: ONI
                 </div>
 
                 <a href="#productos">
-				    <h3 class="card-title">ONI</h3>
+				    <h3 class="card-title">KRAKEN</h3>
 			    </a>
 			    <p class="card-description" style="">State-of-the-art devices designed to cover industrial requirements and implement complete IIoT solutions monitoring suitable variables.</p>
                 <div class="iconos">
@@ -55,6 +55,6 @@ Template Name: ONI
     </div>
 
     <div class="col-md-3 oni-down">
-        <img src="<?php echo get_template_directory_uri() . '/images/VT_oni_tienda1.png'?>">
+        <img src="<?php echo get_template_directory_uri() . '/images/kraken-tienda.png'?>">
     </div>
 </div>

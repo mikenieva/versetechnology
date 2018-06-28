@@ -935,7 +935,6 @@ section.completesystems div.icn {
 
 section.meetsolutions div.productos {
 		width: 38%;
-		margin-top: 77px;
 }
 
 section.subscription div.form button {
@@ -1202,6 +1201,16 @@ figure.woocommerce-product-gallery__wrapper div:nth-child(4){
 }
 
 
+a.label:focus, a.label:hover {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.cd-morph-dropdown .label {
+	text-align: left;
+}
+
 
 
 
@@ -1210,6 +1219,8 @@ figure.woocommerce-product-gallery__wrapper div:nth-child(4){
 /*120px */
 
 @media only screen and (min-width: 120px) {
+
+
 
 	#inicio {
 		margin: 0;
@@ -1272,7 +1283,7 @@ figure.woocommerce-product-gallery__wrapper div:nth-child(4){
 
 	section.completesystems div h2{
     text-align: center;
-    font-size: 40px;
+		font-size: 26px;
     color: white;
     padding-top: 60px;
     margin: 0;
@@ -1324,13 +1335,17 @@ figure.woocommerce-product-gallery__wrapper div:nth-child(4){
 		width: 60px;
 	}
 
+	section.meetsolutions div.productos {
+		width: 100%;
+}
+
 	section.bloghome{
 		background-color:#f1f5ff
 	}
 
 	section.bloghome div.container div.row h2{
 		text-align:center;
-		font-size: 40px;
+		font-size: 26px;
 		color: #2f68f0;
 		font-weight:100;
 		margin-top: 0;
@@ -1376,7 +1391,7 @@ figure.woocommerce-product-gallery__wrapper div:nth-child(4){
 		}
 
 		section.trusted .container .fila .text h2{
-			font-size: 40px;
+			font-size: 26px;
 			color: #2f68f0;
 			font-weight: 300;
 		}
@@ -1403,7 +1418,7 @@ figure.woocommerce-product-gallery__wrapper div:nth-child(4){
 			font-weight: lighter;
 			text-align: left;
 			line-height: 42px;
-			font-size: 29px;
+			font-size: 26px;
 		}		
 		
 		section.meetsolutions p.pitch{
@@ -1420,8 +1435,10 @@ figure.woocommerce-product-gallery__wrapper div:nth-child(4){
 		}
 		
 		section.meetsolutions .cta a:last-child{
-			background-color: white;
-			color:#2e69f0
+			background-color: #2e69f0;
+			color: white;
+			border: 1px solid #2e69f0;
+			border-radius: 6px;
 		}
 
 
@@ -1431,13 +1448,13 @@ figure.woocommerce-product-gallery__wrapper div:nth-child(4){
 		}
 
 		section.meetsolutions div.productos img:first-child{
-			width: 100px;
-			margin: 0 4%;
+			width: 100%;
+			padding: 0 2%;
 		}
 
 		section.meetsolutions div.productos img:last-child{
-			width: 165px;
-			margin: 0 4%;
+			width: 100%;
+			padding: 0 2%;
 		}		
 
 		section.subscription{
@@ -1507,18 +1524,24 @@ figure.woocommerce-product-gallery__wrapper div:nth-child(4){
 			color: white;
 			font-weight: bold;
 			text-align: center;
-			font-size: 65px;
+			font-size: 42px;
 		}
 
 		div.oni{
 			background: white;margin: 0;width: 100%;max-width: 1600px;
 		}
 
-		div.oni-down img{
-			width: 45%; 
-			margin-top:70px;
-			display: none;
+		div.oni-down{
+			width: 32%;
 		}
+
+		div.oni-down img {
+			width: 100%;
+			margin-top: 45px;
+	}
+
+
+
 
 		div.oni .card-body{
 			margin-top:20px;
@@ -1554,19 +1577,27 @@ figure.woocommerce-product-gallery__wrapper div:nth-child(4){
 			margin-bottom: 35px;
 		}
 
-		div.oni div.card-body figure{
+		div.oni div.card-body figure {
 			display: inline-block;
-    	margin-right: 25px;
-    	vertical-align: top;
-    	text-align: center;
-    	padding: 10px 0;
-    	width: 54px;
-		}
+			margin-right: 0px;
+			vertical-align: top;
+			text-align: center;
+			padding: 10px 0;
+			width: 75px;
+	}
 
 
 		div.oni div.card-body figure img{
 			width: 19px;
 			height: initial;
+		}
+
+		div.oni div.card-body figure img.humidity{
+			width: 55px;
+		}
+
+		div.oni div.card-body figure img.temperature{
+			width: 27px;
 		}
 
 		div.oni div.card-body figure img.salinity{
@@ -1577,6 +1608,31 @@ figure.woocommerce-product-gallery__wrapper div:nth-child(4){
 			width: 22px;
 			height: initial;
 		}
+
+		div.oni div.card-body figure img.barometric{
+			width: 56px;
+			height: initial;
+		}
+
+		div.oni div.card-body figure img.luminosity{
+			width: 60px;
+			height: initial;
+		}
+
+		
+
+		div.oni div.card-body figure img.uvindex{
+			width: 58px;
+			height: initial;
+		}
+		
+		div.oni div.card-body figure img.gps{
+			width: 60px;
+			height: initial;
+		}
+
+    
+
 
 		div.oni div.card-body figure img.color{
 			width: 40px;
@@ -1704,6 +1760,16 @@ figure.woocommerce-product-gallery__wrapper div:nth-child(4){
 		padding: 5% 4% 0;
 	}
 
+	section.meetsolutions div.productos img:first-child {
+    width: 49%;
+    padding: 0 2%;
+	}
+
+	section.meetsolutions div.productos img:last-child {
+    width: 49%;
+    padding: 0 2%;
+}
+
 
 	#inicio .marketing figure .humiditymetric {
 		margin-left: 10%;
@@ -1785,21 +1851,30 @@ figure.woocommerce-product-gallery__wrapper div:nth-child(4){
 		padding: 5% 10% 0;
 	}
 
-
-
 }
-
-
-
-
 
 /* 992px */
 
 @media only screen and (min-width: 992px) {
 
-	div.att{
-		margin-left: 17%;
-	}
+			div.att{
+				margin-left: 17%;
+			}
+
+			section.meetsolutions div.productos {
+				padding-bottom: 30px;
+				width: 50%;
+		}
+
+		section.meetsolutions div.productos img:first-child {
+			width: 49%;
+			padding: 0 2%;
+		}
+
+		section.meetsolutions div.productos img:last-child {
+			width: 49%;
+			padding: 0 2%;
+		}
 
 }
 
@@ -1858,10 +1933,19 @@ figure.woocommerce-product-gallery__wrapper div:nth-child(4){
 
 }
 
-
 /* 1200px */
 
 @media only screen and (min-width: 1200px) {
+
+	section.meetsolutions div.productos {
+		width: 38%;
+		margin-top: 65px;
+}
+
+	.card-plain{
+		width: 90% !important;
+		margin-left: 5% !important;
+	}
 
 		.industriesnav{
 			float: right;
@@ -2195,13 +2279,7 @@ figure.woocommerce-product-gallery__wrapper div:nth-child(4){
 			.cd-morph-dropdown.is-dropdown-visible .morph-dropdown-wrapper{
 				z-index: 10;
 			}
-		
-
-
-
-
   }
-
 
 /* 1339px */
 
@@ -2240,7 +2318,6 @@ figure.woocommerce-product-gallery__wrapper div:nth-child(4){
 	}
 }
 
-
 /* 1400px */
 
 @media only screen and (min-width: 1400px) {
@@ -2249,19 +2326,11 @@ figure.woocommerce-product-gallery__wrapper div:nth-child(4){
 	}
 }
 
-
 /* 1440px */
 
-@media only screen and (min-width: 1440px) {
-
+@media only screen and (min-width: 1440px) {}
 	
-
-}
-	
-
-
 /* 1580px */
-
 
 @media only screen and (min-width: 1580px) {
 
@@ -2269,5 +2338,3 @@ figure.woocommerce-product-gallery__wrapper div:nth-child(4){
     	background-size: auto 2275px !important;	
 	}
 }
-
-

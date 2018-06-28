@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: ONI
+Template Name: Golem
 */
 ?>
 <div class="row oni">

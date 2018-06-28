@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: ONI
+Template Name: Argos
 */
 ?>
 <div class="row oni">
