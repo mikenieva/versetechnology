@@ -86,44 +86,6 @@
 
 	</section>
 
-
-<section class="blog-2 section section-gray bloghome">
-	<div class="container">
-		<div class="row">
-			<h2 class="title">See our Case Studies</h2>
-			<div class="row">
-				<?php query_posts('showposts=3'); if (have_posts()) : while (have_posts()) : the_post(); ?>
-				<div class="col-md-4">
-					<div class="card card-blog">
-						<div class="card-image">
-							<a href="<?php the_permalink(); ?>">
-								<img class="img img-raised" style="width: 100%;" src=" <?php the_post_thumbnail_url(); ?>"/>
-							</a>
-						</div>
-						<div class="card-body">
-							<h6 class="card-category text-info category">
-							<?php 
-							$categories = get_the_category();
-							echo '<a href="' . esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . esc_html( $categories[0]->name ) . '</a>';
-							echo "</a>";
-							?>
-							</h6>
-							<h5 class="card-title titulo">
-								<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-							</h5>
-							<p class="card-description">
-								<?php the_excerpt(); ?><br/>
-							</p>
-						</div>
-					</div>
-				</div>
-				<?php endwhile; else : ?>
-				<?php endif; wp_reset_query(); ?>
-			</div>
-		</div>
-	</div>
-</section>
-
 <!--
 <?php get_template_part('subscribe') ?>
 -->
