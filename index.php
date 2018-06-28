@@ -175,28 +175,7 @@
 		</div>							
 	</div>
 </section>
-			
-<section class="row meetsolutions">
-	<div class="col-md-4 col-md-offset-2">
-		<div class="card card-plain">
-			<div class="card-body">
-            	<a href="#productos">
-					<h3 class="card-title titulo">Meet our Solutions</h3>
-				</a>
-				<p class="card-description pitch">State-of-the-art devices designed to cover industrial requirements and implement complete IIoT solutions monitoring suitable variables.</p>
-				<div class="card-footer cta">
-					<a href="#" class="btn btn-link btn-neutral">
-						Book a demo
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-2 productos">
-		<img src="<?php echo get_template_directory_uri() . '/images/oni-home.png'?>">
-		<img src="<?php echo get_template_directory_uri() . '/images/kraken_home.png'?>">
-	</div>
-</section>
+	
 
 <!--
 <?php get_template_part('subscribe') ?>
