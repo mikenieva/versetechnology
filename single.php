@@ -97,6 +97,7 @@
   margin: 0 auto;
   font-size: 18px;
   line-height: 3.6rem;
+  word-wrap: break-word;
 }
 
 .single-post .post-content p{
