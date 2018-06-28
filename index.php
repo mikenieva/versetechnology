@@ -1,9 +1,7 @@
 <?php get_header() ?>
 	<section>
 		<div id="inicio" style="background-image: url('<?php echo get_template_directory_uri() . '/images/VT_hero_home.jpg' ?>');">
-			
 				<div class="marketing">
-					
 					<div class="copyprincipal">
 						<h1 style="">Enabling Access to the<br>Industrial Digital World.</h1>	
 					</div>
@@ -15,9 +13,7 @@
 					<figure class="onihero">
 						<img src="<?php echo get_template_directory_uri() . '/images/onifinal.png'?>" alt="">
 					</figure>
-					
 				</div>
-				
 		</div>
 	</section>
 
@@ -27,6 +23,7 @@
 				Implementing our Complete Systems
 			</h2>
 		</div>
+		<!--
 		<div class="icn">
 			<div class="firstcolumn">
 				<div class="description square1">
