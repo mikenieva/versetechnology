@@ -1257,7 +1257,8 @@ a.label:focus, a.label:hover {
     	margin-top: 0px;
     	line-height: 39px;
     	text-align: left;
-    	margin-left: 25px;
+		margin-left: 25px;
+		width: 80%;
 	}
 
 	#inicio .marketing figure{
