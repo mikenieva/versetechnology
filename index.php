@@ -27,6 +27,7 @@
 				Implementing our Complete Systems
 			</h2>
 		</div>
+		<!--
 		<div class="icn">
 			<div class="firstcolumn">
 				<div class="description square1">
@@ -88,6 +89,7 @@
 			</div>
 
 		</div>
+		-->
 
 	</section>
 
