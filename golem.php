@@ -8,11 +8,11 @@ Template Name: Golem
 		<div class="card card-plain">
             <div class="card-body">
                 <div class="col-md-3 oni-up">
-                    <img src="<?php echo get_template_directory_uri() . '/images/oni-ok.png'?>" class="oni-ok">
+                    <img src="<?php echo get_template_directory_uri() . '/images/golem-area.png'?>">
                 </div>
 
                 <a href="#productos">
-				    <h3 class="card-title">ONI</h3>
+				    <h3 class="card-title">GOLEM</h3>
 			    </a>
 			    <p class="card-description" style="">State-of-the-art devices designed to cover industrial requirements and implement complete IIoT solutions monitoring suitable variables.</p>
                 <div class="iconos">
@@ -21,23 +21,16 @@ Template Name: Golem
                         <p>Humidity</p>
                     </figure>
 				    <figure>
-                        <img src="<?php echo get_template_directory_uri() . '/images/icn_temperature.png'?>" class="temperature">
-                        <p>Temperature</p>
+                        <img src="<?php echo get_template_directory_uri() . '/images/icn_moisture.png'?>" class="moisture">
+                        <p>Soil Moisture</p>
                     </figure>
 				    <figure>
                         <img 
-                        src="<?php echo get_template_directory_uri() . '/images/icn_pressure.png'?>"
-                        class="barometric" ><p>Barometric Pressure</p>
+                        src="<?php echo get_template_directory_uri() . '/images/icn_conductivity.png'?>"
+                        class="conductivity" ><p>Conductivity</p>
                     </figure>
                     <figure>
-                        <img src="<?php echo get_template_directory_uri() . '/images/icn_uvrays.png'?>" class="uvindex" ><p>UV Index</p>
-                    </figure>
-                    <figure>
-                        <img src="<?php echo get_template_directory_uri() . '/images/icn_luminosity.png'?>" class="luminosity"><p>
-                        Luminosity</p>
-                    </figure>
-				    <figure>
-                        <img src="<?php echo get_template_directory_uri() . '/images/icn_gps.png'?>" class="gps" style=""><p>GPS</p>
+                        <img src="<?php echo get_template_directory_uri() . '/images/icn_salinity.png'?>" class="salinity" ><p>Salinity</p>
                     </figure>
 		        </div>
                 <div class="card-footer">
@@ -55,6 +48,6 @@ Template Name: Golem
     </div>
 
     <div class="col-md-3 oni-down">
-        <img src="<?php echo get_template_directory_uri() . '/images/VT_oni_tienda1.png'?>">
+        <img src="<?php echo get_template_directory_uri() . '/images/golem-area.png'?>">
     </div>
 </div>

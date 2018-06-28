@@ -17,28 +17,30 @@ Template Name: Kraken
 			    <p class="card-description" style="">State-of-the-art devices designed to cover industrial requirements and implement complete IIoT solutions monitoring suitable variables.</p>
                 <div class="iconos">
     				<figure>
-                        <img src="<?php echo get_template_directory_uri() . '/images/icn_humidity.png'?>" class="humidity">
-                        <p>Humidity</p>
-                    </figure>
-				    <figure>
                         <img src="<?php echo get_template_directory_uri() . '/images/icn_temperature.png'?>" class="temperature">
                         <p>Temperature</p>
                     </figure>
 				    <figure>
-                        <img 
-                        src="<?php echo get_template_directory_uri() . '/images/icn_pressure.png'?>"
-                        class="barometric" ><p>Barometric Pressure</p>
-                    </figure>
-                    <figure>
-                        <img src="<?php echo get_template_directory_uri() . '/images/icn_uvrays.png'?>" class="uvindex" ><p>UV Index</p>
-                    </figure>
-                    <figure>
-                        <img src="<?php echo get_template_directory_uri() . '/images/icn_luminosity.png'?>" class="luminosity"><p>
-                        Luminosity</p>
+                        <img src="<?php echo get_template_directory_uri() . '/images/icn_ph.png'?>" class="ph">
+                        <p>pH</p>
                     </figure>
 				    <figure>
-                        <img src="<?php echo get_template_directory_uri() . '/images/icn_gps.png'?>" class="gps" style=""><p>GPS</p>
+                        <img 
+                        src="<?php echo get_template_directory_uri() . '/images/icn_conductivity.png'?>"
+                        class="conductivity" ><p>Conductivity</p>
                     </figure>
+                    <figure>
+                        <img src="<?php echo get_template_directory_uri() . '/images/icn_color.png'?>" class="color" ><p>Turbidity</p>
+                    </figure>
+                    <figure>
+                        <img src="<?php echo get_template_directory_uri() . '/images/icn_oxigeno.png'?>" class="oxygen" ><p>Disolved Oxygen</p>
+                    </figure>
+                    <figure>
+                        <img src="<?php echo get_template_directory_uri() . '/images/icn_orp1.png'?>" class="orp" ><p>ORP</p>
+                    </figure>
+                    <figure>
+                        <img src="<?php echo get_template_directory_uri() . '/images/icn_cloro.png'?>" class="cloro" ><p>Chlorine</p>
+                    </figure>                    
 		        </div>
                 <div class="card-footer">
                     <!--

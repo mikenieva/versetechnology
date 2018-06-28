@@ -13,12 +13,12 @@
 		</div>
 </section>
 
-
+<br>
 <?php get_template_part('oni') ?>
 <hr style="padding:0 10%; width: 59%">
-<?php get_template_part('kraken') ?>
-
-
+<?php get_template_part('golem') ?>
+<br>
+<!--
 <section class="casestudies">
 	<h2 style="">Applications</h2>
 	<?php query_posts('tag=casos'); if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -38,6 +38,9 @@
 	<?php endwhile; else : ?>
 	<?php endif; wp_reset_query(); ?>
 </section>
+-->
 
+<!--
 <?php get_template_part('subscribe') ?>
+-->
 <?php get_footer() ?>

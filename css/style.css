@@ -1,7 +1,7 @@
 /*
-Site Name: VERSE Business
-Description: Estilos creados para el sitio VERSE Business
-Author: @JoelB
+Site Name: VERSE Technology
+Description: Estilos creados para el sitio VERSE Technology
+Author: Mike Nieva
 Version: 1.0 
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -956,10 +956,6 @@ section.subscription div.form input {
     text-align: center;
 }
 
-	div.oni-up{
-			display: none;
-		}
-
 	div.oni-down img {
     width: 77%;
     margin-top: 70px;
@@ -1220,6 +1216,15 @@ a.label:focus, a.label:hover {
 
 @media only screen and (min-width: 120px) {
 
+
+	.btn-neutral{
+		border-radius: 6px;
+    width: 100%;
+	}
+
+	div.oni div.card-body div.iconos {
+    text-align: center;
+	}
 
 
 	#inicio {
@@ -1528,20 +1533,22 @@ a.label:focus, a.label:hover {
 		}
 
 		div.oni{
-			background: white;margin: 0;width: 100%;max-width: 1600px;
+			background: white;
+			margin: 0;
+			width: 100%;
+			max-width: 100%;
+			margin-bottom: 20px;
 		}
 
 		div.oni-down{
 			width: 32%;
+			display: none;
 		}
 
 		div.oni-down img {
 			width: 100%;
 			margin-top: 45px;
 	}
-
-
-
 
 		div.oni .card-body{
 			margin-top:20px;
@@ -1583,12 +1590,12 @@ a.label:focus, a.label:hover {
 			vertical-align: top;
 			text-align: center;
 			padding: 10px 0;
-			width: 75px;
+			width: 80px;
 	}
 
 
 		div.oni div.card-body figure img{
-			width: 19px;
+			width: 43px;
 			height: initial;
 		}
 
@@ -1596,16 +1603,22 @@ a.label:focus, a.label:hover {
 			width: 55px;
 		}
 
+		div.oni div.card-body figure img.ph{
+			width: 56px;
+		}
+
+		
+
 		div.oni div.card-body figure img.temperature{
 			width: 27px;
 		}
 
 		div.oni div.card-body figure img.salinity{
-			width: 40px;
+			width: 56px;
 		}
 
 		div.oni div.card-body figure img.conductivity{
-			width: 22px;
+			width: 30.4px;
 			height: initial;
 		}
 
@@ -1619,7 +1632,13 @@ a.label:focus, a.label:hover {
 			height: initial;
 		}
 
+		div.oni div.card-body figure img.moisture{
+			width: 56px;
+			height: initial;
+		}
+
 		
+
 
 		div.oni div.card-body figure img.uvindex{
 			width: 58px;
@@ -1635,12 +1654,12 @@ a.label:focus, a.label:hover {
 
 
 		div.oni div.card-body figure img.color{
-			width: 40px;
+			width: 56px;
 			height: initial;
 		}
 
 		div.oni div.card-body figure img.oxygen{
-			width: 45px;
+			width: 56px;
 			height: initial;
 		}
 
@@ -1856,6 +1875,24 @@ a.label:focus, a.label:hover {
 /* 992px */
 
 @media only screen and (min-width: 992px) {
+
+	.btn-neutral{
+		border-radius: 6px;
+    width: initial;
+		}
+
+		div.oni-down{
+			width: 32%;
+			display: initial
+			}
+
+			div.oni-up{
+				display: none;
+			}			
+
+			div.oni div.card-body div.iconos {
+				text-align: initial;
+			}
 
 			div.att{
 				margin-left: 17%;
