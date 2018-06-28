@@ -13,9 +13,13 @@
 		</div>
 </section>
 
-
+<br>
 <?php get_template_part('oni') ?>
-
+<br>
+<?php get_template_part('argos') ?>
+<br>
+<br>
+<!--
 <section class="casestudies">
 	<h2 style="">Applications</h2>
    	<div class="articulo">
@@ -35,4 +39,5 @@
 
 <?php get_template_part('subscribe') ?>
 
+-->
 <?php get_footer() ?>

@@ -12,10 +12,10 @@
             
 		</div>
 </section>
-
-
+<br>
 <?php get_template_part('oni') ?>
-
+<br>
+<br>
 <!--
 <section class="casestudies">
 	<h2 style="">Applications</h2>

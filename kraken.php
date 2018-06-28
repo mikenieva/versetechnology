@@ -8,7 +8,7 @@ Template Name: Kraken
 		<div class="card card-plain">
             <div class="card-body">
                 <div class="col-md-3 oni-up">
-                    <img src="<?php echo get_template_directory_uri() . '/images/oni-ok.png'?>" class="oni-ok">
+                    <img src="<?php echo get_template_directory_uri() . '/images/kraken-tienda.png'?>" class="oni-ok">
                 </div>
 
                 <a href="#productos">
@@ -48,8 +48,8 @@ Template Name: Kraken
                         <i class="fa fa-book" aria-hidden="true"></i> Go to Store
                     </a>
                     -->
-                    <a href="#pablo" class="btn btn-link btn-neutral" style="border-radius:6px;">
-                        <i class="fa fa-book" aria-hidden="true"></i> Book a demo
+                    <a href="mailto:uriel@verse-technology.com" class="btn btn-link btn-neutral" style="border-radius:6px;">
+                        Book a demo
                     </a>
                 </div>
 		    </div>

@@ -39,8 +39,8 @@ Template Name: Golem
                         <i class="fa fa-book" aria-hidden="true"></i> Go to Store
                     </a>
                     -->
-                    <a href="#pablo" class="btn btn-link btn-neutral" style="border-radius:6px;">
-                        <i class="fa fa-book" aria-hidden="true"></i> Book a demo
+                    <a href="mailto:uriel@verse-technology.com" class="btn btn-link btn-neutral" style="border-radius:6px;">
+                        Book a demo
                     </a>
                 </div>
 		    </div>

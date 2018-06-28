@@ -8,11 +8,11 @@ Template Name: Argos
 		<div class="card card-plain">
             <div class="card-body">
                 <div class="col-md-3 oni-up">
-                    <img src="<?php echo get_template_directory_uri() . '/images/oni-ok.png'?>" class="oni-ok">
+                    <img src="<?php echo get_template_directory_uri() . '/images/argos-tienda.png'?>" class="oni-ok">
                 </div>
 
                 <a href="#productos">
-				    <h3 class="card-title">KRAKEN</h3>
+				    <h3 class="card-title">ARGOS</h3>
 			    </a>
 			    <p class="card-description" style="">State-of-the-art devices designed to cover industrial requirements and implement complete IIoT solutions monitoring suitable variables.</p>
                 <div class="iconos">
@@ -20,26 +20,8 @@ Template Name: Argos
                         <img src="<?php echo get_template_directory_uri() . '/images/icn_temperature.png'?>" class="temperature">
                         <p>Temperature</p>
                     </figure>
-				    <figure>
-                        <img src="<?php echo get_template_directory_uri() . '/images/icn_ph.png'?>" class="ph">
-                        <p>pH</p>
-                    </figure>
-				    <figure>
-                        <img 
-                        src="<?php echo get_template_directory_uri() . '/images/icn_conductivity.png'?>"
-                        class="conductivity" ><p>Conductivity</p>
-                    </figure>
                     <figure>
-                        <img src="<?php echo get_template_directory_uri() . '/images/icn_color.png'?>" class="color" ><p>Turbidity</p>
-                    </figure>
-                    <figure>
-                        <img src="<?php echo get_template_directory_uri() . '/images/icn_oxigeno.png'?>" class="oxygen" ><p>Disolved Oxygen</p>
-                    </figure>
-                    <figure>
-                        <img src="<?php echo get_template_directory_uri() . '/images/icn_orp1.png'?>" class="orp" ><p>ORP</p>
-                    </figure>
-                    <figure>
-                        <img src="<?php echo get_template_directory_uri() . '/images/icn_cloro.png'?>" class="cloro" ><p>Chlorine</p>
+                        <img src="<?php echo get_template_directory_uri() . '/images/icn_gps.png'?>" class="gps" ><p>GPS</p>
                     </figure>                    
 		        </div>
                 <div class="card-footer">
@@ -48,8 +30,8 @@ Template Name: Argos
                         <i class="fa fa-book" aria-hidden="true"></i> Go to Store
                     </a>
                     -->
-                    <a href="#pablo" class="btn btn-link btn-neutral" style="border-radius:6px;">
-                        <i class="fa fa-book" aria-hidden="true"></i> Book a demo
+                    <a href="mailto:uriel@verse-technology.com" class="btn btn-link btn-neutral" style="border-radius:6px;">
+                        Book a demo
                     </a>
                 </div>
 		    </div>
@@ -57,6 +39,6 @@ Template Name: Argos
     </div>
 
     <div class="col-md-3 oni-down">
-        <img src="<?php echo get_template_directory_uri() . '/images/kraken-tienda.png'?>">
+        <img src="<?php echo get_template_directory_uri() . '/images/argos-tienda.png'?>">
     </div>
 </div>
