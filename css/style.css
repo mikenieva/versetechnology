@@ -793,7 +793,8 @@ label>span {
 	line-height: 1.2;
   }
   .cd-morph-dropdown .gallery .content a em {
-	font-size: 1.8rem;
+	font-size: 1.5rem;
+	font-style: normal;
 	padding: .4em 0 .2em;
 	color: #1A1A1A;
   }
