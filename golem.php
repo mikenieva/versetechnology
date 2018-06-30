@@ -10,7 +10,6 @@ Template Name: Golem
                 <div class="col-md-3 oni-up">
                     <img src="<?php echo get_template_directory_uri() . '/images/golem-area.png'?>">
                 </div>
-
                 <a href="#productos">
 				    <h3 class="card-title">GOLEM</h3>
 			    </a>
