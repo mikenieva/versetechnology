@@ -115,6 +115,7 @@
 .single-post .post-content h2, .single-post .post-content h3, .single-post .post-content h4 {
   margin-top: 56px;
   margin-bottom: 20px;
+  line-height: 45px;
 }
 
 
