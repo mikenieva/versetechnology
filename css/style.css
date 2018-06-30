@@ -1327,7 +1327,7 @@ a.label:focus, a.label:hover {
 	section.completesystems div.icn .description .icndescription p.description{
 		color:white;
 		display: inline-block;
-		font-size:18px;
+		font-size:17px;
 		margin-top: 9px;
 	}	
 
@@ -1336,6 +1336,7 @@ a.label:focus, a.label:hover {
 		color:white;
 		display: block;
 		margin: 0;
+		font-size: 17px;
 	}	
 
 	section.completesystems div.icn .description figure{
