@@ -14,7 +14,7 @@ Template Name: Kraken
                 <a href="#productos">
 				    <h3 class="card-title">KRAKEN</h3>
 			    </a>
-			    <p class="card-description" style="">State-of-the-art devices designed to cover industrial requirements and implement complete IIoT solutions monitoring suitable variables.</p>
+			    <p class="card-description" style="">Monitors and detects variations in water properties in order to control water quality.</p>
                 <div class="iconos">
     				<figure>
                         <img src="<?php echo get_template_directory_uri() . '/images/icn_temperature.png'?>" class="temperature">

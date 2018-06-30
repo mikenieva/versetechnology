@@ -14,7 +14,7 @@ Template Name: Golem
                 <a href="#productos">
 				    <h3 class="card-title">GOLEM</h3>
 			    </a>
-			    <p class="card-description" style="">State-of-the-art devices designed to cover industrial requirements and implement complete IIoT solutions monitoring suitable variables.</p>
+			    <p class="card-description" style="">Monitors soil quality by measuring levels of humidity, acidity and alkalinity, to detect the deviation of parameters outside ideal conditions.</p>
                 <div class="iconos">
     				<figure>
                         <img src="<?php echo get_template_directory_uri() . '/images/icn_humidity.png'?>" class="humidity">

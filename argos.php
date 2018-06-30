@@ -14,7 +14,7 @@ Template Name: Argos
                 <a href="#productos">
 				    <h3 class="card-title">ARGOS</h3>
 			    </a>
-			    <p class="card-description" style="">State-of-the-art devices designed to cover industrial requirements and implement complete IIoT solutions monitoring suitable variables.</p>
+			    <p class="card-description" style="">Tracks vehicles, products and any other object in movement.</p>
                 <div class="iconos">
     				<figure>
                         <img src="<?php echo get_template_directory_uri() . '/images/icn_temperature.png'?>" class="temperature">
