@@ -1426,7 +1426,7 @@ a.label:focus, a.label:hover {
 
 		section.meetsolutions h3.titulo{
 			color: #2e69f0;
-			font-weight: lighter;
+			font-weight: 300;
 			text-align: left;
 			line-height: 42px;
 			font-size: 26px;
