@@ -103,8 +103,8 @@
 .single-post .post-content p{
   max-width: 699px;
   margin: 0 auto;
-  font-size: 19px;
-  line-height: 2.4rem;
+  font-size: 20px;
+  line-height: 2.6rem;
   margin-bottom: 18px;
   text-align: left;
   font-weight: 300;
