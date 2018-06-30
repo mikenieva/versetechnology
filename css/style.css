@@ -760,7 +760,7 @@ label>span {
 	
   .cd-morph-dropdown .label {
 	display: block;
-	font-size: 2.2rem;
+	font-size: 0.8rem;
 	color: #1A1A1A;
 	margin-bottom: .8em;
   }
@@ -770,7 +770,7 @@ label>span {
 	display: block;
   }
   .cd-morph-dropdown .gallery .content li {
-	margin-bottom: 1.4em;
+	margin-bottom: 0.4em;
   }
   .cd-morph-dropdown .gallery .content a {
 	display: block;
@@ -793,10 +793,10 @@ label>span {
 	line-height: 1.2;
   }
   .cd-morph-dropdown .gallery .content a em {
-	font-size: 1.5rem;
-	font-style: normal;
-	padding: .4em 0 .2em;
-	color: #1A1A1A;
+	font-size: 1rem;
+    font-style: normal;
+    padding: .4em 0 .2em;
+    color: #1A1A1A;
   }
   .cd-morph-dropdown .gallery .content a span {
 	font-size: 1.4rem;
