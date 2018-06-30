@@ -18,7 +18,7 @@
 }
 .single-post .post-head:before {
   content: '';
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 0;
   left: 0;
