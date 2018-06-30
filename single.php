@@ -101,7 +101,6 @@
 }
 
 .single-post .post-content p{
-  font-family: Arial;
   max-width: 699px;
   margin: 0 auto;
   font-size: 17px;
