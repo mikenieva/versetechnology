@@ -103,10 +103,11 @@
 .single-post .post-content p{
   max-width: 699px;
   margin: 0 auto;
-  font-size: 17px;
+  font-size: 19px;
   line-height: 2.4rem;
   margin-bottom: 18px;
   text-align: left;
+  font-weight: 300;
 }
 
 .single-post .post-content h2, .single-post .post-content h3, .single-post .post-content h4 {
