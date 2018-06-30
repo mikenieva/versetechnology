@@ -18,7 +18,7 @@
 }
 .single-post .post-head:before {
   content: '';
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   position: absolute;
   top: 0;
   left: 0;
@@ -54,6 +54,7 @@
 }
 .single-post .post-head .category a {
   text-transform: uppercase;
+  font-weight: 400;
 }
 .single-post .post-head .title {
   color: #ffffff;
