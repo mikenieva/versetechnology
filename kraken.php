@@ -33,7 +33,7 @@ Template Name: Kraken
                         <img src="<?php echo get_template_directory_uri() . '/images/icn_color.png'?>" class="color" ><p>Turbidity</p>
                     </figure>
                     <figure>
-                        <img src="<?php echo get_template_directory_uri() . '/images/icn_oxigeno.png'?>" class="oxygen" ><p>Disolved Oxygen</p>
+                        <img src="<?php echo get_template_directory_uri() . '/images/icn_oxigeno.png'?>" class="oxygen" ><p>Dissolved Oxygen</p>
                     </figure>
                     <figure>
                         <img src="<?php echo get_template_directory_uri() . '/images/icn_orp1.png'?>" class="orp" ><p>ORP</p>
