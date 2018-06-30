@@ -9,7 +9,7 @@
   padding-top: 0px;
 }
 .single-post .post-head {
-  padding: 160px 0px;
+  padding: 50px 0px;
   background-size: cover;
   background-position: center;
   color: #ffffff;
@@ -59,7 +59,8 @@
   color: #ffffff;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   margin: 32px 0px;
-  font-size: 38px;
+  font-size: 49px;
+  line-height: 64px;
 }
 .single-post .post-head .page-title {
   margin: 0px;
