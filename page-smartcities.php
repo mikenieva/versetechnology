@@ -8,8 +8,7 @@
             </h2>
 			<figure>
 				<img src="<?php echo get_template_directory_uri() . '/images/medicion-smartcities.png'?>">
-			</figure>
-            
+			</figure>  
 		</div>
 </section>
 

@@ -1,6 +1,6 @@
 <?php get_header() ?>
 <style>
-
+  
 .align-center {
   text-align: center;
 }
@@ -284,8 +284,6 @@
   display: -webkit-flex;
   display: flex;
 }
-
-
 
 </style>
 

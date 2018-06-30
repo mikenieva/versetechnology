@@ -39,7 +39,6 @@
 	<?php endif; wp_reset_query(); ?>
 </section>
 -->
-
 <!--
 <?php get_template_part('subscribe') ?>
 -->
