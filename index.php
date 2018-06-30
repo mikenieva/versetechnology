@@ -20,7 +20,7 @@
 	<section class="completesystems">
 		<div>
 			<h2>
-				Implementing our Complete Systems
+				Complete Systems
 			</h2>
 		</div>
 	
