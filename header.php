@@ -37,6 +37,9 @@
 				<li class="has-dropdown links industriesnav" data-content="about" style="float:right;">
 					<a href="#0">Industries</a>
 				</li>
+				<li>
+					<a href="<?php echo get_home_url() . "/shop"; ?>">Shop</a>
+				</li>
 				<!--
 				<li>
 					<a href="<?php echo get_home_url() . "/blog"; ?>">Blog</a>
@@ -44,9 +47,7 @@
 				<li>
 					<a href="<?php echo get_home_url() . "/blog/press"; ?>">Press</a>
 				</li>
-				<li>
-					<a href="<?php echo get_home_url() . "/shop"; ?>">Shop</a>
-				</li>
+				<!--
 				<li>
 					<a href="<?php echo get_home_url() . "/careers"; ?>">Careers</a>
 				</li>

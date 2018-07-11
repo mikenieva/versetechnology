@@ -1083,7 +1083,7 @@ a{
 	.woocommerce-message{
 		text-align: center;
     	border: 1px solid #9a9b9b;
-    	margin: 40px 25% 10px;
+    	margin: 40px 25% 80px;
     	padding: 20px 0 20px;		
 	}
 
@@ -1207,6 +1207,14 @@ a.label:focus, a.label:hover {
 	text-align: left;
 }
 
+.woocommerce-Tabs-panel--additional_information{
+	display: none;
+}
+
+.panel{
+	margin-bottom: 150px;
+	border: none;
+}
 
 
 
