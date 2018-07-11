@@ -1217,6 +1217,10 @@ td.actions button{
     margin: 40px 34%;	
 }
 
+.related{
+	text-align: center;
+}
+
 .single_add_to_cart_button{
     margin-top: 40px;
     display: block;
