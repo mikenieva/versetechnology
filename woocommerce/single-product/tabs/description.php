@@ -30,8 +30,37 @@ $heading = esc_html( apply_filters( 'woocommerce_product_description_heading', _
   <h2><?php echo $heading; ?></h2>
 <?php endif; ?>
 
-<?php the_content(); ?>
+<div style="width: 50%; display:inline-block;">
+  <?php the_content(); ?>
+</div>
 
-<h2>Tutorial</h2>
 
-<?php echo get_post_meta($post->ID, 'tutorial', true); ?>
+<div style="width: 260px;display:inline-block;vertical-align: top;background-color: #f1f5ff;margin: 135px 10% 0;">
+    <div style="border: solid 1px #2f68f0;border-radius: 6px;">
+      <section style="text-align: center;padding-top: 15px;">
+          <h4 style="color: #2f68f0;font-weight: 400;">Explore the docs</h4>
+      </section>
+      <article style="margin-left: 30px;">
+        <button style="background-color: #2f68f0;color: white;font-weight: 400;border-radius: 4px;padding: 10px;width: 200px;text-align: left;border: none;margin-bottom: 20px;">
+          <a href="#" style="color:white;font-weight:400">Starting Guide</a>
+          <span style="float:right;"><i class="fas fa-angle-right"></i></span>
+        </button>
+      </article>
+      <article style="margin-left: 30px;">
+        <button style="background-color: white;color: #2f68f0;font-weight: 400;border-radius: 4px;padding: 10px;width: 200px;text-align: left;border: none;margin-bottom: 20px;">
+        <a href="#" style="color:#2f68f0;font-weight:400">GitHub</a>
+        <span style="float:right;"><i class="fas fa-angle-right"></i></span>
+        </button>
+      </article>
+    </div>
+</div>
+
+
+<div style=" margin-top: 150px;">
+<h3 style="color: #2f68f0;font-weight: 400;">Tutorials</h3>
+<?php
+if(get_post_meta($post->ID, 'tutorial', true)){
+  echo get_post_meta($post->ID, 'tutorial', true);
+}
+?>
+</div>

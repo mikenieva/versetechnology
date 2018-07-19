@@ -122,11 +122,11 @@ h2 {
 	line-height: 30px;
 }
 h3 {
-	font-size: 40px;
-	line-height: 34px;
-	color: #2E69F0;
-	font-weight: 400;
-	margin-bottom: 40px;
+	font-size: 25px;
+    line-height: 34px;
+    color: #2E69F0;
+    font-weight: 400;
+    margin-bottom: 40px;
 }
 h4 {
 	font-size: 14px;
@@ -1092,9 +1092,6 @@ a{
     	text-decoration: underline;
 	}
 	
-	.woocommerce-Tabs-panel h3{
-    	margin-top: 80px;
-	}
 
 .wc-forward{
 	display: block;
@@ -1386,6 +1383,19 @@ a:hover{
 
 .posted_in a{
 	font-weight: 500;
+}
+
+.woocommerce-Tabs-panel table td{
+	border: none !important;
+	vertical-align: top !important;
+}
+
+.woocommerce-Tabs-panel table hr{
+	border-color:transparent;
+}
+
+.product_meta span.tagged_as{
+	display: none
 }
 
 /* Media Queries */
