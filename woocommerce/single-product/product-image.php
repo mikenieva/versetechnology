@@ -51,3 +51,5 @@ $wrapper_classes   = apply_filters( 'woocommerce_single_product_image_gallery_cl
 		?>
 	</figure>
 </div>
+
+

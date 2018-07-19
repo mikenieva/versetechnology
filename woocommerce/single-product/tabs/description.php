@@ -22,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 global $post;
 
-$heading = esc_html( apply_filters( 'woocommerce_product_description_heading', __( 'Description', 'woocommerce' ) ) );
+$heading = esc_html( apply_filters( 'woocommerce_product_description_heading', __( '', 'woocommerce' ) ) );
 
 ?>
 
@@ -31,3 +31,7 @@ $heading = esc_html( apply_filters( 'woocommerce_product_description_heading', _
 <?php endif; ?>
 
 <?php the_content(); ?>
+
+<h2>Tutorial</h2>
+
+<?php echo get_post_meta($post->ID, 'tutorial', true); ?>
