@@ -1083,7 +1083,7 @@ a{
 	.woocommerce-message{
 		text-align: center;
     	border: 1px solid #9a9b9b;
-    	margin: 40px 25% 80px;
+    	margin: 40px 25% 0px;
     	padding: 20px 0 20px;		
 	}
 
@@ -1372,9 +1372,23 @@ div.quantity label.screen-reader-text{
 	text-align: justify;
 }
 
-a:hover{
+.woocommerce-product-details__short-description div{
+    font-weight: 400;
+	font-size: 16px;
+}
+
+
+.product a:hover{
 	color: #2b66ff;
 	text-decoration: underline;
+}
+
+.woocommerce-Tabs-panel strong{
+	color: #2f68f0;
+}
+
+.woocommerce-Tabs-panel p{
+	font-weight: 400;
 }
 
 .posted_in{
@@ -1396,6 +1410,10 @@ a:hover{
 
 .product_meta span.tagged_as{
 	display: none
+}
+
+.products{
+	margin-top: 90px;
 }
 
 /* Media Queries */
