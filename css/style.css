@@ -1368,6 +1368,17 @@ div.quantity label.screen-reader-text{
 	font-weight: 300;
 }
 
+p.out-of-stock{
+	border: 1px solid transparent;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: black;
+    color: white;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
 .woocommerce-product-details__short-description{
 	text-align: justify;
 }
