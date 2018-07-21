@@ -229,8 +229,10 @@
 	<option value="Industry" style="">Oil and Gas</option>
 	<option value="Industry" style="">Logistics and Supply Chain</option>
 </select>
-    </div>
-		<button><a href="https://verse-technology.us17.list-manage.com/subscribe/post?u=b6e1486ac7e354ab8b1f6e0af&amp;id=00cfdef602" style="    color: white;font-weight: 500;font-size: 16px;">Subscribe</a></button>
+	</div>
+	<a href="https://verse-technology.us17.list-manage.com/subscribe/post?u=b6e1486ac7e354ab8b1f6e0af&amp;id=00cfdef602" style="color: white;font-weight: 500;font-size: 16px;">
+		<button>Subscribe</button>
+	</a>	
 	</div>
     </div>
 </section>
