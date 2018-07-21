@@ -1070,8 +1070,8 @@ a{
     width: 90%;
     text-align: left;
     margin-top: 106px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }	
 
 .woocommerce-product-gallery {
@@ -1238,7 +1238,7 @@ td.actions button{
     font-weight: 400;
     height: 35px;
     border: solid 1px transparent;
-    width: 50%;
+    width: auto;
 }
 
 .posted_in{
@@ -1316,7 +1316,7 @@ figure.woocommerce-product-gallery__wrapper div:nth-child(1) img{
 }
 
 .product-type-simple {
-    width: 90%;
+	width: 80%;
     display: inline-block;
     margin-bottom: 100px;
 }
