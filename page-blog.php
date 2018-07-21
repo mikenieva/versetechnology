@@ -5,13 +5,13 @@
 		<h1 style="color: blue;margin: 0;font-size: 35px;padding: 0;vertical-align: top;font-weight: 400">Blog</h1>
 	</div>
     <div style="display: inline-block;float: right;vertical-align: top;margin-top: 7px;">
-        <div style="display: inline-block;background-color: #9cf31b;border-radius: 13px;padding: 2px 35px;color: white;">
+        <div style="display: inline-block;background-color: #77c427;border-radius: 13px;padding: 2px 35px;color: white;">
 			Articles
 		</div>
-        <div style="display: inline-block;background-color: #9cf31b;border-radius: 13px;padding: 2px 35px;color: white;">
+        <div style="display: inline-block;background-color: #77c427;border-radius: 13px;padding: 2px 35px;color: white;">
 			Press Releases
 		</div>
-        <div style="display: inline-block;background-color: #9cf31b;border-radius: 13px;padding: 2px 35px;color: white;">
+        <div style="display: inline-block;background-color: #77c427;border-radius: 13px;padding: 2px 35px;color: white;">
 			Papers
 		</div>
     </div>
