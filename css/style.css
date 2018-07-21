@@ -1368,6 +1368,11 @@ div.quantity label.screen-reader-text{
 	font-weight: 300;
 }
 
+a.woocommerce-LoopProduct-link:hover{
+	text-decoration: none !important;
+	color: gray !important;
+}
+
 p.out-of-stock{
 	border: 1px solid transparent;
     text-align: center;
@@ -1574,10 +1579,10 @@ p.out-of-stock{
 	}
 
 	section.bloghome div.container div.row h2{
-		text-align:center;
+		text-align: center;
 		font-size: 26px;
 		color: #2f68f0;
-		font-weight: 300;
+		font-weight: 400;
 		margin-top: 0;
 		margin-bottom: 70px;
 		line-height: 40px;
@@ -1623,7 +1628,7 @@ p.out-of-stock{
 		section.trusted .container .fila .text h2{
 			font-size: 26px;
 			color: #2f68f0;
-			font-weight: 300;
+			font-weight: 400;
 		}
 
 		section.trusted .container .fila .description img{
@@ -1639,21 +1644,24 @@ p.out-of-stock{
 			margin: 0;
 			width: 100%;
 			max-width: inherit;
-			padding-top: 20px;
-			padding-bottom: 45px;
+			padding-top: 60px;
+			padding-bottom: 60px;
 		}		
 
 		section.meetsolutions h3.titulo{
 			color: #2e69f0;
-			font-weight: 300;
-			text-align: left;
-			line-height: 42px;
-			font-size: 26px;
+    		font-weight: 400;
+    		text-align: left;
+    		line-height: 42px;
+    		font-size: 26px;
 		}		
 		
 		section.meetsolutions p.pitch{
 			margin: 30px 9.5% 0 0;
-			text-align: left;
+    		text-align: left;
+    		font-weight: 400;
+    		font-size: 16px;
+    		width: 100%;
 		}
 
 		section.meetsolutions .cta{
@@ -1689,15 +1697,15 @@ p.out-of-stock{
 
 		section.subscription{
 			background-color: #2f69f0;
-			color: white;
-			padding: 40px 0%;
+    		color: white;
+    		padding: 50px 0% 60px;
 		}
 
 		section.subscription div.titulo{
 			font-size: 9px;
-			width: 100%;
-			display: inline-block;
-			text-align: center;
+    		display: inline-block;
+    		margin-top: 40px;
+    		margin-left: 10.3%;
 		}		
 
 		section.subscription div.titulo h1{
@@ -1707,33 +1715,35 @@ p.out-of-stock{
 		section.subscription div.titulo p{
 			width: 100%;
 			font-size: 16px;
+			font-weight: 400;
 		}		
 
 		section.subscription div.form{
 			display: inline-block;
-			vertical-align: top;
-			text-align: center;
-			margin-top: 20px;
-			width: 100%;
+    		vertical-align: top;
+    		margin-left: 16.3%;
 		}
 
 		section.subscription div.form input{
 			border-radius: 5px;
-			width: 83%;
-			padding: 9px 9px 6px 15px;
-			color:black;
-			text-align: center;
+		    width: 100%;
+    		padding: 3px 6px 0px 15px;
+    		color: black;
+    		text-align: center;
+		    border: none;
+    		height: 36px;
 		}
 
 		section.subscription div.form button{
 			background-color: #7ed322;
-			border-radius: 5px;
-			font-weight: bold;
-			padding: 7px 32px;
-			vertical-align: top;
-			border: none;
-			margin-top: 20px
-	  }
+    		border-radius: 5px;
+    		font-weight: bold;
+    		padding: 7px 32px;
+    		vertical-align: top;
+    		border: none;
+    		margin-top: 30px;
+    		width: 100%;
+	  	}
 
 		section.hero div.background{
 			margin: 0;width: 100%;
@@ -2218,10 +2228,10 @@ p.out-of-stock{
 			}
 			.cd-morph-dropdown .main-nav {
 				display: inline-block;
-				width: 80%;
+				width: 100%;
 			}
 			.cd-morph-dropdown .main-nav > ul > li {
-				float: left;
+				float: right;
 				margin-top: 7px;
 			}
 
@@ -2464,12 +2474,9 @@ p.out-of-stock{
     	margin-bottom: 3.3em;
     	display: inline-block;
 		margin-top: 29px;
-		padding-right: 26%;
+		padding-right: 7%;
+		float: left;
 	}	
-
-		.cd-morph-dropdown .main-nav > ul > li:first-child{
-			padding-right: 7%;
-		}
 
 		.cd-morph-dropdown .main-nav > ul > li > a{
 			font-size: 16px;
@@ -2532,7 +2539,7 @@ p.out-of-stock{
 				left: 0;
 				top: 0;
 				width: 100%;
-				padding-left: 4%;
+				padding: 0 10%;
 			}
 			
 			.cd-morph-dropdown.is-dropdown-visible .morph-dropdown-wrapper{
@@ -2584,6 +2591,7 @@ p.out-of-stock{
 @media only screen and (min-width: 1400px) {
 	.cd-morph-dropdown .main-nav > ul > li:first-child {
 		padding-right: 15%;
+		float: left;
 	}
 }
 

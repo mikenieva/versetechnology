@@ -182,7 +182,7 @@
             	<a href="#productos">
 					<h3 class="card-title titulo">Meet our Solutions</h3>
 				</a>
-				<p class="card-description pitch">State-of-the-art devices designed to cover industrial requirements and implement complete IIoT solutions monitoring suitable variables.</p>
+				<p class="card-description pitch">Benefit from our technology and our broad project competence in the Industrial Internet of Things.</p>
 				<div class="card-footer cta">
 					<a href="#" class="btn btn-link btn-home-bookademo">
 						Book a demo
@@ -197,7 +197,64 @@
 	</div>
 </section>
 
-<!--
-<?php get_template_part('subscribe') ?>
--->
+<section class="subscription">	
+    <div class="container">
+    	<div class="col-md-4 col-md-offset-1 titulo">
+		<h1>Subscribe for updates</h1>
+		<p>Get our new releases, developments and applications in your inbox.</p>
+	</div>
+	<div class="form col-md-offset-1 col-md-4">
+    <div style="
+    margin-bottom: 20px;
+">
+		<label style="font-weight: 300;">Email</label>
+<input type="text" placeholder="hi@example.com"><label style="
+    font-weight: 300">
+</label></div>
+<div>Industry of your Interest
+
+<select type="text" placeholder="What's your email?" style="
+    border-radius: 5px;
+    width: 100%;
+    padding: 4px 6px 4px 15px;
+    color: black;
+    text-align: center;
+    height: 35px;
+">
+	<option value="Industry" style="">Agriculture</option>
+	<option value="Industry" style="">Manufacturing</option>
+	<option value="Industry" style="">Livestock</option>
+	<option value="Industry" style="">Smart Cities</option>
+	<option value="Industry" style="">Aquaculture</option>
+	<option value="Industry" style="">Oil and Gas</option>
+	<option value="Industry" style="">Logistics and Supply Chain</option>
+</select>
+    </div>
+		<button><a href="https://verse-technology.us17.list-manage.com/subscribe/post?u=b6e1486ac7e354ab8b1f6e0af&amp;id=00cfdef602" style="    color: white;font-weight: 500;font-size: 16px;">Subscribe</a></button>
+	</div>
+    </div>
+</section>
+
+
+<section class="row meetsolutions">
+	<div class="col-md-4 col-md-offset-2">
+		<div class="card card-plain">
+			<div class="card-body">
+            	<a href="#productos">
+					<h3 class="card-title titulo">Are you a maker?</h3>
+				</a>
+				<p class="card-description pitch">Push boundaries with our GOBLIN Collection. The right tool for world class projects.</p>
+				<div class="card-footer cta">
+					<a href="http://localhost:8888/wordpress-vt/shop" class="btn btn-link btn-home-bookademo">
+						BUY NOW
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4 goblins">
+		<img src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/goblins.png">
+	</div>
+</section>
+
 <?php get_footer() ?>

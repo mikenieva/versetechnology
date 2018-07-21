@@ -36,7 +36,7 @@
 						<a href="<?php echo get_home_url() . "/aquaculture"; ?>"><p class="vsp">Aquaculture</p></a>
 						<a href="<?php echo get_home_url() . "/manufacturing"; ?>"><p class="vsp">Manufacturing</p></a>
 						<a href="<?php echo get_home_url() . "/logistics"; ?>"><p class="vsp">Logistics & Supply Chain</p></a>
-						<a href="/smartcities"><p class="vsp">Smart Cities</p></a>
+						<a href="<?php echo get_home_url() . "/smartcities"; ?>"><p class="vsp">Smart Cities</p></a>
 						<!-- <a href="/argos"><p class="vsp">Gas & Oil</p></a> -->
 					</div>
 					<div class="col-xs-12 col-sm-3 SubFooter" style="padding-left: 50px;">
