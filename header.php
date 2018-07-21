@@ -29,25 +29,32 @@
 				<a class="navbar-brand" href="<?php echo get_home_url(); ?>">
 					<img alt="" class="logoImg" src="<?php echo get_template_directory_uri() . '/images/Logo.png'?>">
 				</a>
+				<!--
 				<li>
 					<a href="<?php echo get_home_url() . "/es"; ?>">Spanish</a>
 				</li>
+				-->
 				<li>
 					<a href="<?php echo get_home_url() . "/blog"; ?>">Blog</a>
 				</li>
+				<!--
 				<li>
 					<a href="<?php echo get_home_url() . "/blog/press"; ?>">Press</a>
 				</li>
+				-->
+				<!--
 				<li>
 					<a href="<?php echo get_home_url() . "/careers"; ?>">Careers</a>
 				</li>
+				-->
+				<!--
 				<li>
 					<a href="<?php echo get_home_url() . "/investment"; ?>">Investment</a>
 				</li>
 				<li>
 					<a href="<?php echo get_home_url() . "/shop"; ?>">Shop</a>
 				</li>
-				</li>
+				-->
 				<li class="has-dropdown links industriesnav" data-content="about">
 					<a href="#0">Industries</a>
 				</li>
