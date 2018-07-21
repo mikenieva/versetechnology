@@ -29,7 +29,7 @@
 						<h6 class="card-category text-info category">
 							<?php 
 							$categories = get_the_category();
-							echo '<a href="' . esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . esc_html( $categories[0]->name ) . '</a>';
+							echo '<a style="font-weight: 400" href="' . esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . esc_html( $categories[0]->name ) . '</a>';
 							echo "</a>";
 							?>
 						</h6>

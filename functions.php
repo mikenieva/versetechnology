@@ -12,7 +12,7 @@ add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 ?>
 <?php
 function wpdocs_excerpt_more( $more ) {
-    return '...<br><a style="margin-top:40px;" href="'.get_the_permalink().'" rel="nofollow"><br><u>Read more</u></a>';
+    return '...<br><a style="color: #254afc; margin-top:40px;" href="'.get_the_permalink().'" rel="nofollow"><br><u>Read more</u></a>';
 }
 add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
 ?>
