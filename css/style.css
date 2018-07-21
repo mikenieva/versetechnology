@@ -1070,7 +1070,7 @@ a{
     width: 90%;
     text-align: left;
     margin-top: 106px;
-    margin-left: 10%;
+    margin-left: 11%;
     margin-right: 10%;
 }	
 
@@ -1302,11 +1302,11 @@ figure.woocommerce-product-gallery__wrapper div:nth-child(1) img{
 
 
 .summary {
-    display: inline-block;
-    width: 40%;
+	display: inline-block;
+    width: 48%;
     vertical-align: top;
     text-align: left;
-    margin: 0 5%;
+    margin: 0 0% 0 5%;
 }
 
 .summary h1{
@@ -1316,7 +1316,7 @@ figure.woocommerce-product-gallery__wrapper div:nth-child(1) img{
 }
 
 .product-type-simple {
-	width: 80%;
+	width: 79%;
     display: inline-block;
     margin-bottom: 100px;
 }
