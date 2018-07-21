@@ -184,7 +184,7 @@
 				</a>
 				<p class="card-description pitch">Benefit from our technology and our broad project competence in the Industrial Internet of Things.</p>
 				<div class="card-footer cta">
-					<a href="#" class="btn btn-link btn-home-bookademo">
+					<a href="mailto:uriel@verse-technology.com" class="btn btn-link btn-home-bookademo">
 						Book a demo
 					</a>
 				</div>
