@@ -1193,6 +1193,10 @@ td.actions button{
     text-align: center;
 }
 
+.shipping th{
+    text-align: center;
+}
+
 .order-total th{
 	text-align: center;
 }

@@ -247,7 +247,7 @@
 				</a>
 				<p class="card-description pitch">Push boundaries with our GOBLIN Collection. The right tool for world class projects.</p>
 				<div class="card-footer cta">
-					<a href="http://localhost:8888/wordpress-vt/shop" class="btn btn-link btn-home-bookademo">
+					<a href="<?php echo get_home_url() . "/shop"; ?>" class="btn btn-link btn-home-bookademo">
 						BUY NOW
 					</a>
 				</div>
@@ -255,7 +255,7 @@
 		</div>
 	</div>
 	<div class="col-md-4 goblins">
-		<img src="http://localhost:8888/wordpress-vt/wp-content/themes/vt/images/goblins.png">
+		<img src="<?php echo get_template_directory_uri() . '/images/goblins.png'?>">
 	</div>
 </section>
 
