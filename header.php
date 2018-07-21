@@ -51,10 +51,11 @@
 				<li>
 					<a href="<?php echo get_home_url() . "/investment"; ?>">Investment</a>
 				</li>
+				-->
 				<li>
 					<a href="<?php echo get_home_url() . "/shop"; ?>">Shop</a>
 				</li>
-				-->
+				
 				<li class="has-dropdown links industriesnav" data-content="about">
 					<a href="#0">Industries</a>
 				</li>
