@@ -1092,13 +1092,24 @@ a{
     	text-decoration: underline;
 	}
 	
-
 .wc-forward{
 	display: block;
 }
 
-#reviews{
-	display:none;
+.woocommerce-Reviews ol{
+	padding: 0;
+}
+
+.woocommerce-Reviews li.comment{
+	list-style-type: none;
+	margin-bottom: 25px;
+}
+
+.woocommerce-Reviews div.comment-text{
+	display: inline-block;
+    vertical-align: top;
+    width: 70%;
+	margin: 0 20px;
 }
 
 .price{
@@ -1497,13 +1508,107 @@ span.wpcf7-not-valid-tip {
     font-weight: 800;
 }
 
+.comment-form .comment-reply-title{
+	font-size: 21px;
+}
+
+.comment-form .comment-form-rating label{
+	display: block;
+    font-size: 13px;
+    color: #4A4A4A;
+    font-weight: normal;
+}
+
+p.comment-form-comment{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.comment-form p.comment-form-comment label{
+	display: block;
+    font-size: 13px;
+    color: #4A4A4A;
+    font-weight: 500;
+}
+
+
+.comment-form p.comment-form-author{
+	display: block;
+    font-size: 13px;
+    color: #4A4A4A;
+    font-weight: 500;
+}
+
+.comment-form p.comment-form-email{
+	display: block;
+    font-size: 13px;
+    color: #4A4A4A;
+    font-weight: 500;	
+}
+    
+.comment-form p.comment-form-author label{
+	display: block;
+	margin-top: 20px;
+}
+
+.comment-form p.comment-form-email label{
+	display: block;
+	margin-top: 20px;	
+}
+
+.comment-form span.required{
+	left: 0px;
+}
+
+.woocommerce-product-rating{
+	display: none;
+}
+
+.review_form_wrapper{
+	border-top: 1px solid #90999e;
+    padding-top: 45px;
+    margin-top: 45px;
+}
+
+.comment-respond{
+	border-top: solid 1px #afb6ba;
+    padding-top: 60px;
+    margin-top: 60px;
+}
+
+.comment-notes{
+	margin-bottom: 30px;
+}
+
+.comment-form-comment textarea{
+	width: 45%;
+    border-radius: 6px;
+    border: 1px solid #cccccc;
+}
+
+h4.addareview{
+	font-size: 21px;
+    line-height: 22px;
+    color: #9B9B9B;
+}
+
+p.form-submit input{
+	margin-top: 25px;
+    display: inline-block;
+    background: #2b66ff;
+    color: white;
+    border-radius: 4px;
+    font-weight: 400;
+    height: 35px;
+    border: solid 1px transparent;
+    width: auto;
+}
+
 /* Media Queries */
 
 /*120px */
 
 @media only screen and (min-width: 120px) {
-
-
 	.btn-neutral{
 		border-radius: 6px;
     	width: 100%;
