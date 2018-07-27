@@ -1474,6 +1474,7 @@ span.wpcf7-list-item{
 span.wpcf7-list-item-label{
     top: 0;
     left: 15px;
+	margin-left: 10px;
 }
 
 .wpcf7-submit{
