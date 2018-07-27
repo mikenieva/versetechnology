@@ -183,9 +183,9 @@
 					<h3 class="card-title titulo">Meet our Solutions</h3>
 				</a>
 				<p class="card-description pitch">Benefit from our technology and our broad project competence in the Industrial Internet of Things.</p>
-				<div class="card-footer cta">
-					<a href="mailto:uriel@verse-technology.com" class="btn btn-link btn-home-bookademo">
-						Book a demo
+				<div class="card-footer cta">	
+					<a href="<?php echo get_home_url() . "/shop"; ?>" class="btn btn-link btn-home-bookademo" style="color: white;">
+						Go to store
 					</a>
 				</div>
 			</div>
