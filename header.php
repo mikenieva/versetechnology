@@ -15,7 +15,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet" type="text/css">
 </head>
 <body>
-
 <header class="cd-morph-dropdown">
 		<a href="<?php echo get_home_url(); ?>">
 			<img alt="" class="logomobile" src="<?php echo get_template_directory_uri() . '/images/Logo.png'?>">

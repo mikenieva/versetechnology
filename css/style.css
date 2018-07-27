@@ -1237,7 +1237,7 @@ td.actions button{
 }
 
 .related{
-	text-align: center;
+	text-align: left;
 }
 
 .single_add_to_cart_button{
@@ -1285,7 +1285,7 @@ td.actions button{
 figure.woocommerce-product-gallery__wrapper div{
 	display: inline-block;
 	float: left;
-	border: 1px solid black;
+	border: 1px solid #98a0a5;
 	margin-right: 8px;
 	margin-top: 20px;
 	height: 102px;
