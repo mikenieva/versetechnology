@@ -19,13 +19,11 @@
 							<br>
 						<p class="vsp">(+52) 1 551 828 0521</p>
 						<p class="vsp">hi@verse-technology.com</p>
-						<!--
-						<a href="/blog/" target="_blank"><p class="vsp">Blog</p></a>
-						<a href="/press"><p class="vsp">Press</p></a>
-						<a href="/careers"><p class="vsp">Careers</p></a>
-						<a href="/store"><p class="vsp">Store</p></a>
-						<a href="/investment"><p class="vsp">Investment</p></a>
-						-->
+						<a href="<?php echo get_home_url() . "/blog"; ?>" target="_blank"><p class="vsp">Blog</p></a>
+						<a href="<?php echo get_home_url() . "/blog/press"; ?>"><p class="vsp">Press</p></a>
+						<a href="<?php echo get_home_url() . "/careers"; ?>"><p class="vsp">Careers</p></a>
+						<a href="<?php echo get_home_url() . "/store"; ?>"><p class="vsp">Store</p></a>
+						<a href="<?php echo get_home_url() . "/investment"; ?>"><p class="vsp">Investment</p></a>
 						</br>
 						</br>
 					</div>
@@ -37,7 +35,6 @@
 						<a href="<?php echo get_home_url() . "/manufacturing"; ?>"><p class="vsp">Manufacturing</p></a>
 						<a href="<?php echo get_home_url() . "/logistics"; ?>"><p class="vsp">Logistics & Supply Chain</p></a>
 						<a href="<?php echo get_home_url() . "/smartcities"; ?>"><p class="vsp">Smart Cities</p></a>
-						<!-- <a href="/argos"><p class="vsp">Gas & Oil</p></a> -->
 					</div>
 					<div class="col-xs-12 col-sm-3 SubFooter" style="padding-left: 50px;">
 						<p class="vsp" style="font-size: 13px !important; margin: 2.5px 0px;"><b>FIND US</b></p>
