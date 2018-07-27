@@ -1602,6 +1602,12 @@ p.form-submit input{
     height: 35px;
     border: solid 1px transparent;
     width: auto;
+	width: 45%;
+}
+
+section.related.products{
+	border-top: solid 1px #afb6ba;
+    padding-top: 60px;
 }
 
 /* Media Queries */
