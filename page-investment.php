@@ -79,60 +79,17 @@
     background-color: rgb(250, 251, 255);
     padding-right: 25px;
 ">
-    <form action="" style="
-    margin-left: 23px;
-    margin-top: 23px;
-">
-    <p>Name</p>
-    <input type="text" style="
-    width: 355px;
-    border-radius: 3px;
-    border: solid 1px #d2d2d2;
-" placeholder="What's your name?">
-    <p>Email</p>
-    <input type="text" style="
-    width: 355px;
-    border-radius: 3px;
-    border: solid 1px #d2d2d2;
-" placeholder="What's your email?">
-    <p>WhatsApp</p>
-    <input type="text" style="
-    width: 355px;
-    border-radius: 3px;
-    border: solid 1px #d2d2d2;
-" placeholder="What's your phone number?">
-    <p style="
-    margin-top: 19px;
-    margin-bottom: 19px;
-">Investment Amount MXN</p>
-    
-<div>
-<input type="radio" id="contactChoice1" name="contact" value="email" style="
-">
-<label style="font-weight: 100;" for="contactChoice1">$50,000 - $249,999</label>
-</div>
-<div>
-<input type="radio" id="contactChoice1" name="contact" value="email" style="
-">
-<label style="font-weight: 100;" for="contactChoice1">$250,000 - $499,999</label>
-</div><div>
-<input type="radio" id="contactChoice1" name="contact" value="email" style="
-">
-<label style="font-weight: 100;" for="contactChoice1">$500,000 and up</label>
-</div>
-    <div>
-        <button type="submit" style="
-    background-color: #2b66ff;
-    color: white;
-    border-radius: 5px;
-    width: 355px;
-    margin-top: 45px;
-    margin-bottom: 50px;
-"><b>Send Request</b></button>
-    </div>
-    </form>
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post();
+the_content();
+endwhile; else: ?>
+<p>Sorry, no posts matched your criteria.</p>
+<?php endif; ?>
 </div>
 </div>
 
 
+
+
+
+ 
 <?php get_footer() ?>

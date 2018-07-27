@@ -30,7 +30,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	<?php else : ?>
 
-		<h3><?php _e( 'Billing details', 'woocommerce' ); ?></h3>
+		<h2 class="mb-3"><?php _e( 'Billing details', 'woocommerce' ); ?></h2>
 
 	<?php endif; ?>
 

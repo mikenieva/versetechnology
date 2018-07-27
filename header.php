@@ -37,21 +37,21 @@
 				<li>
 					<a href="<?php echo get_home_url() . "/blog"; ?>">Blog</a>
 				</li>
-				<!--
+				
 				<li>
 					<a href="<?php echo get_home_url() . "/blog/press"; ?>">Press</a>
 				</li>
-				-->
-				<!--
+				
+				
 				<li>
 					<a href="<?php echo get_home_url() . "/careers"; ?>">Careers</a>
 				</li>
-				-->
-				<!--
+				
+				
 				<li>
 					<a href="<?php echo get_home_url() . "/investment"; ?>">Investment</a>
 				</li>
-				-->
+				
 				<li>
 					<a href="<?php echo get_home_url() . "/shop"; ?>">Shop</a>
 				</li>

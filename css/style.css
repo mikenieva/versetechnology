@@ -1440,6 +1440,62 @@ p.out-of-stock{
 	margin-top: 90px;
 }
 
+.formFooter{
+	display: none !important;
+}
+
+.summer-sale-2018{
+	display: none;
+}
+
+.wpcf7-form{
+	margin-left: 23px;
+    margin-top: 23px;
+    margin-bottom: 34px;
+}
+
+.wpcf7-form p label{
+	font-weight: 400;
+}
+
+.wpcf7-form p label span{
+	left: 0;
+}
+
+.wpcf7-form p label span input{
+	margin-top: 5px;
+}
+
+
+span.wpcf7-list-item{
+	display: block;
+}
+    
+span.wpcf7-list-item-label{
+    top: 0;
+    left: 15px;
+}
+
+.wpcf7-submit{
+	background-color: #2b66ff;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    padding: 5px 0;
+    font-weight: 400;
+	}
+
+.screen-reader-response{
+	display:none;
+}
+
+span.wpcf7-not-valid-tip {
+    display: block;
+    font-weight: 800;
+}
+
 /* Media Queries */
 
 /*120px */
@@ -2111,6 +2167,7 @@ p.out-of-stock{
 	}
 
 }
+
 
 /* 992px */
 
