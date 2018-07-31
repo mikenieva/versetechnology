@@ -19,7 +19,6 @@
 						<p class="vsp">(+52) 1 551 828 0521</p>
 						<p class="vsp">hi@verse-technology.com</p>
 						<a href="<?php echo get_home_url() . "/blog"; ?>" target="_blank"><p class="vsp">Blog</p></a>
-						<a href="<?php echo get_home_url() . "/blog/press"; ?>"><p class="vsp">Press</p></a>
 						<a href="<?php echo get_home_url() . "/careers"; ?>"><p class="vsp">Careers</p></a>
 						<a href="<?php echo get_home_url() . "/store"; ?>"><p class="vsp">Store</p></a>
 						<a href="<?php echo get_home_url() . "/investment"; ?>"><p class="vsp">Investment</p></a>
