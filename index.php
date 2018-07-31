@@ -228,7 +228,7 @@
 			<br>
 			<div class="mc-field-group">
 				<label for="mce-group[8765]" style="font-weight: 300">Industry of your interest</label>
-				<select name="group[8765]" class="REQ_CSS" style="border-radius: 5px;width: 100%;padding: 4px 6px 4px 15px;color: black;text-align: center;height: 35px;font-weight: 300" id="mce-group[8765]">
+				<select name="group[8765]" class="REQ_CSS" style="border-radius: 5px;width: 100%;padding: 4px 6px 4px 15px;color: black;text-align: center;height: 35px;font-weight: 300;-webkit-appearance: menulist-button;" id="mce-group[8765]">
 					<option value=""></option>
 					<option value="1">Agriculture</option>
 					<option value="2">Manufacturing</option>
