@@ -24,6 +24,7 @@
 						<a href="<?php echo get_home_url() . "/careers"; ?>"><p class="vsp">Careers</p></a>
 						<a href="<?php echo get_home_url() . "/store"; ?>"><p class="vsp">Store</p></a>
 						<a href="<?php echo get_home_url() . "/investment"; ?>"><p class="vsp">Investment</p></a>
+						<a href="<?php echo get_home_url() . "/privacy-police"; ?>"><p class="vsp">Privacy Policy</p></a>
 						</br>
 						</br>
 					</div>
