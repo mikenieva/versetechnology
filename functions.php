@@ -16,3 +16,8 @@ function wpdocs_excerpt_more( $more ) {
 }
 add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
 ?>
+<?php // functions.php
+add_action( 'init', function() {
+    remove_post_type_support( 'careers', 'editor' );
+}, 99);
+?>

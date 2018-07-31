@@ -1844,15 +1844,14 @@ section.related.products{
     	text-align: center;
 		}
 
-		 section.meetsolutions .cta a:first-child{
-    	background-color: #2e69f0;
+		 section.meetsolutions button:first-child a{
+			color:white;
+			font-weight: 500;
 		}
 		
-		section.meetsolutions .cta a:last-child{
-			background-color: #2e69f0;
-			color: white;
-			border: 1px solid #2e69f0;
-			border-radius: 6px;
+		section.meetsolutions button:last-child a{
+			color:#2f68f0;
+			font-weight: 500;
 		}
 
 
@@ -1905,7 +1904,7 @@ section.related.products{
 		    width: 100%;
     		padding: 3px 6px 0px 15px;
     		color: black;
-    		text-align: center;
+    		text-align: left;
 		    border: none;
     		height: 36px;
 		}
