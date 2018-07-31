@@ -30,7 +30,7 @@ Template Name: Argos
                         <i class="fa fa-book" aria-hidden="true"></i> Go to Store
                     </a>
                     -->
-                    <a href="mailto:uriel@verse-technology.com" class="btn btn-link btn-neutral" style="border-radius:6px;">
+                    <a href="<?php echo get_home_url() . "/booking"; ?>" class="btn btn-link btn-neutral" style="border-radius:6px;">
                         Book a demo
                     </a>
                 </div>

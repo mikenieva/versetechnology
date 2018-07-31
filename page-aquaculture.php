@@ -16,8 +16,5 @@
 <br>
 <?php get_template_part('kraken') ?>
 <br>
-
-
 <?php get_template_part('subscribe') ?>
-
 <?php get_footer() ?>
