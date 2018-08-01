@@ -50,7 +50,7 @@ $heading = esc_html( apply_filters( 'woocommerce_product_description_heading', _
         </a>
       </article>
       <article style="margin-left: 30px;">
-        <a href="<?php if(get_post_meta($post->ID, 'github', true)){echo get_post_meta($post->ID, 'github', true);}?>" style="color:#2f68f0;font-weight:400">
+        <a target"_blank" href="<?php if(get_post_meta($post->ID, 'github', true)){echo get_post_meta($post->ID, 'github', true);}?>" style="color:#2f68f0;font-weight:400">
         <button style="background-color: white;color: #2f68f0;font-weight: 400;border-radius: 4px;padding: 10px;width: 200px;text-align: left;border: none;margin-bottom: 20px;">
         GitHub
         <span style="float:right;"><i class="fas fa-angle-right"></i></span>
