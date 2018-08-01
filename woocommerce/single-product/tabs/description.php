@@ -41,17 +41,21 @@ $heading = esc_html( apply_filters( 'woocommerce_product_description_heading', _
           <h4 style="color: #2f68f0;font-weight: 400;">Explore the docs</h4>
       </section>
       <article style="margin-left: 30px;">
+      <a target="_blank" href="
+          <?php if(get_post_meta($post->ID, 'starting_guide', true)){echo get_post_meta($post->ID, 'starting_guide', true);}?>" style="color:white;font-weight:400">
         <button style="background-color: #2f68f0;color: white;font-weight: 400;border-radius: 4px;padding: 10px;width: 200px;text-align: left;border: none;margin-bottom: 20px;">
-          <a target="_blank" href="
-          <?php if(get_post_meta($post->ID, 'starting_guide', true)){echo get_post_meta($post->ID, 'starting_guide', true);}?>" style="color:white;font-weight:400">Starting Guide</a>
+          Starting Guide
           <span style="float:right;"><i class="fas fa-angle-right"></i></span>
         </button>
+        </a>
       </article>
       <article style="margin-left: 30px;">
+        <a href="<?php if(get_post_meta($post->ID, 'github', true)){echo get_post_meta($post->ID, 'github', true);}?>" style="color:#2f68f0;font-weight:400">
         <button style="background-color: white;color: #2f68f0;font-weight: 400;border-radius: 4px;padding: 10px;width: 200px;text-align: left;border: none;margin-bottom: 20px;">
-        <a href="<?php if(get_post_meta($post->ID, 'github', true)){echo get_post_meta($post->ID, 'github', true);}?>" style="color:#2f68f0;font-weight:400">GitHub</a>
+        GitHub
         <span style="float:right;"><i class="fas fa-angle-right"></i></span>
         </button>
+        </a>
       </article>
     </div>
 </div>
