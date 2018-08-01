@@ -1116,6 +1116,10 @@ a{
 	margin-bottom: 20px;	
 }
 
+.price del{
+	display:none;
+}
+
 .cart{
     margin-top: 50px;
     margin-bottom: 30px;
