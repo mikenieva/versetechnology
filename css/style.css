@@ -1418,9 +1418,11 @@ p.out-of-stock{
 
 
 .product a:hover{
-	color: #2b66ff;
 	text-decoration: underline;
+	color:white;
 }
+
+
 
 .woocommerce-Tabs-panel strong{
 	color: #2f68f0;
@@ -1612,6 +1614,10 @@ p.form-submit input{
 section.related.products{
 	border-top: solid 1px #afb6ba;
     padding-top: 60px;
+}
+
+.star-rating{
+	display: none;
 }
 
 /* Media Queries */
