@@ -42,13 +42,14 @@ $heading = esc_html( apply_filters( 'woocommerce_product_description_heading', _
       </section>
       <article style="margin-left: 30px;">
         <button style="background-color: #2f68f0;color: white;font-weight: 400;border-radius: 4px;padding: 10px;width: 200px;text-align: left;border: none;margin-bottom: 20px;">
-          <a href="#" style="color:white;font-weight:400">Starting Guide</a>
+          <a target="_blank" href="
+          <?php if(get_post_meta($post->ID, 'starting_guide', true)){echo get_post_meta($post->ID, 'starting_guide', true);}?>" style="color:white;font-weight:400">Starting Guide</a>
           <span style="float:right;"><i class="fas fa-angle-right"></i></span>
         </button>
       </article>
       <article style="margin-left: 30px;">
         <button style="background-color: white;color: #2f68f0;font-weight: 400;border-radius: 4px;padding: 10px;width: 200px;text-align: left;border: none;margin-bottom: 20px;">
-        <a href="#" style="color:#2f68f0;font-weight:400">GitHub</a>
+        <a href="<?php if(get_post_meta($post->ID, 'github', true)){echo get_post_meta($post->ID, 'github', true);}?>" style="color:#2f68f0;font-weight:400">GitHub</a>
         <span style="float:right;"><i class="fas fa-angle-right"></i></span>
         </button>
       </article>
