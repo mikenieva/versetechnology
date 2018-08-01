@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/font-verse.css' ?>">
 	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/paperkit.css' ?>">
 	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/style.css' ?>">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 	<link href="<?php echo get_template_directory_uri() . '/images/favicon.ico';?>" rel="shortcut icon" type="image/png">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet" type="text/css">
 
@@ -486,7 +487,7 @@
               	<ul class="share-links">
               		<!-- twitter -->
                   <li>
-              			<a style="display: block;width: 120px;color: #ffffff;font-size: 14px;line-height: 28.5px;font-weight: bold;" class="twitter" href="https://twitter.com/share?url=<?php echo get_permalink();?>" onclick="window.open(this.href, 'twitter-share', 'width=580,height=296');return false;" title="Share on Twitter"><i class="fa fa-twitter"></i>Twitter</a>
+              			<a style="display: block;width: 120px;color: #ffffff;font-size: 14px;line-height: 28.5px;font-weight: bold;" class="twitter" href="https://twitter.com/share?url=<?php echo get_permalink();?>" onclick="window.open(this.href, 'twitter-share', 'width=580,height=296');return false;" title="Share on Twitter"><i class="fab fa-twitter"></i>&nbsp;Twitter</a>
               		</li>
                   <!-- facebook -->
               		<li>
@@ -494,7 +495,7 @@
               		</li>
                   <!-- linkedin -->
                   <li>
-              			<a style="display: block;width: 120px;color: #ffffff;font-size: 14px;line-height: 28.5px;font-weight: bold;"  class="linkedin" href="http://www.linkedin.com/shareArticle?mini=true&url=<?php echo get_permalink();?>" onclick="window.open(this.href, 'linkedin-share', 'width=580,height=296');return false;" title="Share on Linkedin"><i class="fa fa-linkedin"></i>Linkedin</a>
+              			<a style="display: block;width: 120px;color: #ffffff;font-size: 14px;line-height: 28.5px;font-weight: bold;"  class="linkedin" href="http://www.linkedin.com/shareArticle?mini=true&url=<?php echo get_permalink();?>" onclick="window.open(this.href, 'linkedin-share', 'width=580,height=296');return false;" title="Share on Linkedin"><i class="fab fa-linkedin"></i>&nbsp;Linkedin</a>
               		</li>
 
               	</ul>
